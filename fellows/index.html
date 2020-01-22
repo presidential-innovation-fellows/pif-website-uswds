@@ -1,0 +1,22 @@
+---
+layout: page
+title: Fellows
+description: Meet the Presidential Innovation Fellows
+sidenav: true
+banner: true
+permalink: /fellows/
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: fellow_year
+---
+
+{% for fellow in paginator.posts %}
+  <h1><a href="{{ fellow.url }}">{{ fellow.title }}</a></h1>
+  <p class="year">{{ fellow.fellow_year }}</p>
+  <div class="content">
+    {{ fellow.content }}
+  </div>
+{% endfor %}
+
+{% include pagination.html %}

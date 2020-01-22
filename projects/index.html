@@ -1,0 +1,47 @@
+---
+layout: wide
+title: Projects
+permalink: /projects/
+pagination:
+  enabled: true
+  collection: projects
+  sort_field: name
+---
+
+{% include banner.html %}
+
+<div class="grid-container">
+  <div class="grid-row">
+    <div class="desktop:grid-col-8 usa-prose padding-right-4">
+      <!-- This loops through the paginated posts -->
+      {% for project in paginator.posts %}
+      <div class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+        <h3 class="title">
+          <a class="usa-link text-no-underline" href="{{ site.baseurl }}{{ post.url }}">{{project.title}}</a>
+        </h3>
+        <div class="text-base margin-bottom-2">
+          <div class="margin-top-neg-105">
+            <span class="text-bold">{{ project.agency }}</span>
+          </div>
+        </div>
+        <div>
+          {% if project.image %}
+          {% asset "{{ project.image }}" class="tablet:float-left tablet:width-1/3 padding-right-3 padding-top-1" alt="{{ project.image_alt_text }}" %}
+          {% endif %}
+
+          {{ project.content }}
+
+          {% comment %} We default to using post.content, but you can also use post.excerpt. If you use excerpt then you have to
+          make sure the content is on each post header
+          {% endcomment %}
+        </div>
+      </div>
+      {% endfor %}
+      <!-- Pagination links -->
+      {% include pagination.html %}
+    </div>
+  </div>
+  <div class="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">
+    <a class="usa-link" href="#blog">Return to top</a>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+.usa-hero {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('../assets/images/hero.png');
+}
+.usa-hero__callout {
+  background-color: #fff;
+  color: #333;
+}
+.usa-hero__heading--alt, .usa-hero__heading{
+  color: #333;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.usa-header {
+  background-color: #162e51;
+}
+.usa-logo a {
+  color: #fff;
+}
+.usa-graphic-list .usa-media-block__img {
+  float: none;
+}

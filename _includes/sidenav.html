@@ -1,23 +1,21 @@
-{% comment %} 
+{% comment %}
 The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
 _layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
 {% endcomment %}
 
+{% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="" class="usa-current">Current page</a>
+        <a href="/fellows/" class="{% if navurl == '/fellows/' %}usa-current{% endif %}">Fellows</a>
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+            <a href="/fellows/2012/" class="{% if navurl == '/fellows/2012/' %}usa-current{% endif %}">2012 Fellows</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="" class="usa-current">Child link</a>
-            <ul class="usa-sidenav__sublist">
+            <a href="/fellows/2013/" class="{% if navurl == '/fellows/2013/' %}usa-current{% endif %}">2013 Fellows</a>
+            <!--<ul class="usa-sidenav__sublist">
               <li class="usa-sidenav__item">
                 <a href="">Grandchild link</a>
               </li>
@@ -30,9 +28,12 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
               <li class="usa-sidenav__item">
                 <a href="">Grandchild link</a>
               </li>
-            </ul>
+            </ul>-->
           </li>
           <li class="usa-sidenav__item">
+            <a href="/fellows/2015/" class="{% if navurl == '/fellows/2015/' %}usa-current{% endif %}">2015 Fellows</a>
+          </li>
+          <!--<li class="usa-sidenav__item">
             <a href="">Child link</a>
           </li>
           <li class="usa-sidenav__item">
@@ -40,12 +41,12 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
           </li>
           <li class="usa-sidenav__item">
             <a href="">Child link</a>
-          </li>
+          </li>-->
         </ul>
       </li>
-      <li class="usa-sidenav__item">
+      <!--<li class="usa-sidenav__item">
         <a href="">Parent link</a>
-      </li>
+      </li>-->
     </ul>
   </nav>
 </aside>
