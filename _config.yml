@@ -42,6 +42,8 @@ primary_navigation:
     url: /mission/
   - name: Fellows
     url: /fellows/
+  - name: Agencies
+    url: /agencies/
   - name: Projects
     url: /projects/
   # - name: About Us

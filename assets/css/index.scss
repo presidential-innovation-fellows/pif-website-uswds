@@ -17,21 +17,12 @@
 
 //Styles for screens wider than tablet
 @media screen and (min-width: 64em) {
-  .usa-header--extended .usa-nav {
-    position: absolute;
-    top: 3em;
-    left: 30em;
-    border: none;
-  }
   .usa-nav__primary > .usa-nav__primary-item > a, .usa-nav__primary button, .usa-nav__primary button span {
     color: #fff;
   }
   .usa-logo {
     line-height: 0;
-  }
-  .usa-header--extended .usa-logo {
-    margin: 0.5em 0 0.5em;
-    max-width: 30%;
+    margin: 0;
   }
   .usa-nav__primary button[aria-expanded=true], .usa-nav__submenu {
     background: #fff;
@@ -44,6 +35,42 @@
   }
   .usa-hero__callout {
     max-width: 25rem;
+  }
+  .site-nav {
+    float: right;
+    position: relative;
+    padding: 0;
+  }
+  .site-navbar__logo {
+    width: 200px;
+    margin-left: 0;
+  }
+  .site-header {
+    // align-items: center;
+    // display: flex;
+    // justify-content: space-between;
+    padding: 1.25rem;
+    width: 100%;
+  }
+  .site-navbar {
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // height: auto;
+    // padding: 0;
+  }
+  .site-c-navbar__logo-link {
+    display: flex;
+    margin: 0;
+    display: block;
+  }
+  .usa-nav__primary {
+    align-items: baseline;
+    display: flex;
+    margin: 0;
+  }
+  .usa-banner__inner {
+    max-width: none;
   }
 }
 @media screen and (max-width: 64em) {
