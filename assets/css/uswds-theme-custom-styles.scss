@@ -52,3 +52,7 @@ i.e.
   background-image: url("./images/linkedin.svg"), linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
 }
+
+.usa-header + main {
+  @include u-border(1px, "base-darkest");
+ }
