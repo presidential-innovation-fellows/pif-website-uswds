@@ -32,12 +32,14 @@ i.e.
 .img-circle {
   border-radius: 50%;
 }
-.usa-header {
-  @include u-bg('primary-darker');
-}
+
 .usa-logo a {
   color: #fff;
 }
 .usa-graphic-list .usa-media-block__img {
   float: none;
+}
+
+.usa-list li svg {
+  vertical-align: middle;
 }
