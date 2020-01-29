@@ -43,3 +43,12 @@ i.e.
 .usa-list li svg {
   vertical-align: middle;
 }
+
+.usa-section--dark h3 {
+  @include u-text('secondary')
+}
+
+.usa-social-link--linkedin {
+  background-image: url("./images/linkedin.svg"), linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+}
