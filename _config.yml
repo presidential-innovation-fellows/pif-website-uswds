@@ -183,11 +183,13 @@ exclude:
   - package-lock.json
   - README.md
   - src
+  - node_modules/uswds/dist/img/favicons
   - CONTRIBUTING.md
   - LICENSE.md
 
 assets:
   sources:
+    - _assets/favicons
     - assets/images/fellows/2012
     - assets/images/fellows/2013
     - assets/images/fellows/2014
