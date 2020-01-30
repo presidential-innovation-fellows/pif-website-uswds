@@ -8,18 +8,19 @@ layout: default
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         <h5 class="text-uppercase text-secondary-dark">{{ page.agency }}</h5>
         <h1 class="title">{{ page.title }}</h1>
-
+        <p class="usa-intro">{{ page.summary }}</p>
         {% if page.agency_logo %}
         {% asset "{{ page.agency_logo }}" class="img-circle img-responsive" alt="{{ page.agency }}" %}
         {% endif %}
+        <h2>About the partner</h2>
+        {{ page.partner_description }}
+        <h2>The question</h2>
         <div class="bg-primary-lightest project-question">
           <p class="usa-intro">
 
             {{ page.subtitle  }}
           </p>
         </div>
-        <h2>About the partner</h2>
-        {{ page.partner_description }}
         <h2>What we're doing</h2>
         {{ content }}
       </div>

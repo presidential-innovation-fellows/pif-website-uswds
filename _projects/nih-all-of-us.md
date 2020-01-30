@@ -3,6 +3,7 @@ id: nih-all-of-us
 agency: "National Institutes of Health"
 agency_abbrev: "NIH"
 title: "NIH All of Us Research Initiatives"
+summary: Working with the National Institutes of Health engage research participants and researchers for the All of Us research program.
 cover_art: "all-of-us-participants.jpg"
 subtitle: "How might we dramatically improve health outcomes through precision medicine?"
 thumb: "pills.jpeg"
