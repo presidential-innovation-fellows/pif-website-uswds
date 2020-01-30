@@ -8,13 +8,12 @@ layout: default
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         <div class="clearfix">
           <h4 class="text-uppercase text-secondary-dark float-left margin-0">{{ page.agency }}</h4>
+          {% if page.project_link %}
           <a href="{{ page.project_link }}" class="usa-button float-right usa-button--secondary">
             View project site
           </a>
+          {% endif %}
         </div>
-
-        {% if page.project_link %}
-        {% endif %}
         <h1 class="title">{{ page.title }}</h1>
       
 
