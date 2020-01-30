@@ -45,7 +45,7 @@ i.e.
 }
 
 .usa-section--dark h3 {
-  @include u-text('secondary')
+  @include u-text('secondary');
 }
 
 .usa-social-link--linkedin {
@@ -56,3 +56,8 @@ i.e.
 .usa-header + main {
   @include u-border(1px, "base-darkest");
  }
+
+ .usa-footer__return-to-top a, .usa-footer__return-to-top a:hover, .usa-footer__return-to-top a:visited {
+  @include u-text('white');
+  text-decoration: none;
+}
