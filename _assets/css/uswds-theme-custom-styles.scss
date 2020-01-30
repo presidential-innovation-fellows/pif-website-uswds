@@ -20,7 +20,7 @@ i.e.
 ----------------------------------------
 */
 .usa-hero {
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url('../assets/images/hero.png');
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url(asset_path('hero-pif.png'));
 }
 .usa-hero__callout {
   background-color: #fff;
