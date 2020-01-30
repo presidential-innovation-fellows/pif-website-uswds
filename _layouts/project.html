@@ -6,10 +6,17 @@ layout: default
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-        <h5 class="text-uppercase text-secondary-dark">{{ page.agency }}</h5>
-        <h1 class="title">{{ page.title }}</h1>
-        
+        <div class="clearfix">
+          <h4 class="text-uppercase text-secondary-dark float-left margin-0">{{ page.agency }}</h4>
+          <a href="{{ page.project_link }}" class="usa-button float-right usa-button--secondary">
+            View project site
+          </a>
+        </div>
 
+        {% if page.project_link %}
+        {% endif %}
+        <h1 class="title">{{ page.title }}</h1>
+      
 
         <div class="grid-container">
           <div class="grid-row grid-gap">
