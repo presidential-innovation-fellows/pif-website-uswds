@@ -6,8 +6,44 @@ layout: default
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-        <h1 class="title">{{ page.name }}</h1>
-        <img src="/assets/images/agencies/{{ page.agency_logo }}" class="img-circle img-responsive">
+        <div class="clearfix">
+          <h4 class="text-uppercase text-secondary-dark float-left margin-0">{{ page.agency }}</h4>
+          {% if page.project_link %}
+          <a href="{{ page.project_link }}" class="usa-button float-right usa-button--secondary">
+            View project site
+          </a>
+          {% endif %}
+        </div>
+        <h1 class="title">{{ page.title }}</h1>
+      
+
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="grid-col-3">
+              {% if page.agency_logo %}
+              {% asset "{{ page.agency_logo }}" class="img-circle img-responsive project-image" alt="{{ page.agency }}" %}
+              {% endif %}
+            </div>
+            <div class="grid-col-9">
+              <p class="usa-intro">
+                {{ page.summary }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <h2>About the partner</h2>
+        {{ page.partner_description }}
+        <h2>The question</h2>
+        <div class="bg-primary-lightest project-question">
+          <p class="usa-intro">
+
+            {{ page.subtitle  }}
+          </p>
+        </div>
+        <h2>What we're doing</h2>
         {{ content }}
       </div>
     </div>
