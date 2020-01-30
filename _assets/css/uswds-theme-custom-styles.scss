@@ -19,6 +19,21 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+
+.project-question {
+  background-image: url(asset_path("question.svg")), linear-gradient(transparent, transparent);
+  background-position: units('205');
+  background-repeat: no-repeat;
+  background-size: units(7);
+  padding: units(1) units(2);
+}
+
+.project-question .usa-intro {
+  padding-left: units(9);
+  margin: 0;
+}
+
 .usa-hero {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url(asset_path('hero-pif.png'));
 }
