@@ -42,6 +42,8 @@ primary_navigation:
     url: /mission/
   - name: Fellows
     url: /fellows/
+  - name: Agencies
+    url: /agencies/
   - name: Projects
     url: /projects/
   # - name: About Us
@@ -181,20 +183,22 @@ exclude:
   - package-lock.json
   - README.md
   - src
+  - node_modules/uswds/dist/img/favicons
   - CONTRIBUTING.md
   - LICENSE.md
 
 assets:
   sources:
-    - assets/images/fellows/2012
-    - assets/images/fellows/2013
-    - assets/images/fellows/2014
-    - assets/images/fellows/2015
-    - assets/images/fellows/2016
-    - assets/images/fellows/2017
-    - assets/images/fellows/2018
-    - assets/images/fellows/2019
-    - assets/images/fellows/2020
+    - _assets/favicons
+    - _assets/images/fellows/2012
+    - _assets/images/fellows/2013
+    - _assets/images/fellows/2014
+    - _assets/images/fellows/2015
+    - _assets/images/fellows/2016
+    - _assets/images/fellows/2017
+    - _assets/images/fellows/2018
+    - _assets/images/fellows/2019
+    - _assets/images/fellows/2020
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
