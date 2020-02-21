@@ -46,7 +46,7 @@
     // align-items: center;
     // display: flex;
     // justify-content: space-between;
-    padding: 1.25rem;
+    padding: units('105');
     width: 100%;
   }
   .site-navbar {
@@ -67,6 +67,15 @@
     margin: 0;
   }
 }
+
+.breadcrumb {
+  padding: units(2);
+}
+
+.breadcrumb a:visited {
+  
+}
+
 @media screen and (max-width: 64em) {
   .usa-logo__text {
     width: 10em;
@@ -96,5 +105,9 @@
   }
   .paginate-button {
     display: block;
+  }
+
+  .breadcrumb {
+    display: none;
   }
 }
