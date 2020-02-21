@@ -1,7 +1,7 @@
 ---
 id: nih-all-of-us
 agency: "NIH"
-agency_logo: "nih.jpg"
+agency_logo: "NIH.png"
 title: "NIH All of Us Research Initiatives"
 cover_art: "all-of-us-participants.jpg"
 subtitle: "How might we dramatically improve health outcomes through precision medicine?"
