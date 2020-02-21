@@ -190,6 +190,7 @@ exclude:
 assets:
   sources:
     - _assets/favicons
+    - _assets/images/projects
     - _assets/images/fellows/2012
     - _assets/images/fellows/2013
     - _assets/images/fellows/2014
