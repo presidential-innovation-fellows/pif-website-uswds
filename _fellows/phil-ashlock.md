@@ -1,6 +1,6 @@
 ---
-id: ashlock-phil
-name: Phil Ashlock
+id: phil-ashlock
+title: Phil Ashlock
 image: ashlock-phil-headshot.png
 fellow_year: 2012
 hometown: "Anacortes, WA"

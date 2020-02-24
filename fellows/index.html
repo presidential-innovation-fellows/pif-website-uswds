@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fellow
 title: Fellows
 description: Meet the Presidential Innovation Fellows
 sidenav: true
@@ -9,14 +9,30 @@ pagination:
   enabled: true
   collection: fellows
   sort_field: fellow_year
+  title: "Fellows"
 ---
 
 {% for fellow in paginator.posts %}
-  <h1><a href="{{ site.baseurl }}{{ fellow.url }}">{{ fellow.title }}</a></h1>
+<div class="grid-row grid-gap">
+  <div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose">
+    {% if fellow.image %}
+    {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
+    {% endif %}
+  </div>
+  <div class="desktop:grid-col-9 usa-prose">
+    <h1><a href="{{ fellow.url }}">{{ fellow.title }}</a></h1>
+    <div class="content">
+    {{ fellow.content }}
+    </div>
+  </div>
+</div>
+
+
+  <!-- <h1><a href="{{ site.baseurl }}{{ fellow.url }}">{{ fellow.title }}</a></h1>
   <p class="year">{{ fellow.fellow_year }}</p>
   <div class="content">
     {{ fellow.content }}
-  </div>
+  </div> -->
 {% endfor %}
 
 {% include pagination.html %}

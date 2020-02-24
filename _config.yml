@@ -38,14 +38,14 @@ dap_agency: GSA
 primary_navigation:
   - name: Home
     url: /
-  - name: Our Mission
+  - name: Who We Are
     url: /mission/
   - name: Fellows
     url: /fellows/
-  - name: Agencies
-    url: /agencies/
   - name: Projects
     url: /projects/
+  - name: Agencies
+    url: /agencies/
   # - name: About Us
   #   children:
   #     - name: Blog

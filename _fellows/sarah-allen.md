@@ -1,6 +1,6 @@
 ---
-id: allen-sarah
-name: Sarah Allen
+id: sarah-allen
+title: Sarah Allen
 image: allen-sarah-headshot.png
 fellow_year: 2013
 hometown: Massachusetts

@@ -1,6 +1,6 @@
 ---
-id: alterovitz-gil
-name: Gil Alterovitz
+id: gil-alterovitz
+title: Gil Alterovitz
 image: alterovitz-gil-headshot.jpg
 fellow_year: 2017
 hometown: Boston, MA

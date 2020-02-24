@@ -16,7 +16,21 @@
 @media screen and (min-width: 64em) {
   .usa-nav__primary > .usa-nav__primary-item > a, .usa-nav__primary button, .usa-nav__primary button span {
     color: #fff;
+    position: relative;
   }
+   .usa-nav__primary-item .usa-current::after,  .usa-nav__primary-item .usa-nav__link:hover::after {
+    background-color: #fff;
+    border-radius: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    height: .25rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 0;
+  }
+
+
   .usa-logo {
     line-height: 0;
     margin: 0;
@@ -66,6 +80,7 @@
     display: flex;
     margin: 0;
   }
+
 }
 
 .breadcrumb {
@@ -73,12 +88,24 @@
 }
 
 .breadcrumb a:visited {
-  
+
 }
 
 @media screen and (max-width: 64em) {
   .usa-logo__text {
     width: 10em;
+  }
+  .usa-navbar {
+    border-bottom: none;
+  }
+  .usa-menu-btn {
+    background: none;
+  }
+  .usa-nav__primary .usa-current, .usa-nav__primary a:hover {
+    @include u-text('primary-darker');
+  }
+  .usa-nav__primary .usa-current::after {
+    @include u-bg('primary-darker');
   }
 }
 @media screen and (min-width: 640px) {
@@ -110,4 +137,5 @@
   .breadcrumb {
     display: none;
   }
+
 }
