@@ -66,8 +66,8 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
     <ul class="usa-sidenav">
       {% for agency in site.data.agencies %}
       {% if include.pif_agency == agency.name %}
-      <li class="usa-sidenav__item">
-          {{ agency.name }}
+      <li class="padding-y-2">
+          {{ agency.fullname }}
       </li>
       {% endif %}
       {% endfor %}

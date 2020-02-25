@@ -18,6 +18,14 @@ This template is for a single page that does not have a date associated with it.
         {% asset "{{ page.image }}" class="circle-card-lg float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
         {% endif %}
 
+        <strong>Class:</strong> {{ page.fellow_year }}<br />
+        <strong>From:</strong> {{ page.hometown }}
+
+        <p class="usa-intro">
+          {{ page.bio_short }}
+        </p>
+
+       <h2>Biography</h2>
         {{ content }}
       </div>
     </div>
