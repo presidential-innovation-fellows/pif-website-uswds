@@ -4,11 +4,13 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 {% endcomment %}
 
 {% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
-<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
   <nav>
+
+    {% if navurl == '/fellows/' %}
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        <a href="/fellows/" class="{% if navurl == '/fellows/' %}usa-current{% endif %}">Fellows</a>
+        <a href="/fellows/" class="{% if navurl == '/fellows/' %}usa-current{% endif %}">Class</a>
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
             <a href="/fellows/2012/" class="{% if navurl == '/fellows/2012/' %}usa-current{% endif %}">2012 Fellows</a>
@@ -48,5 +50,12 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
         <a href="">Parent link</a>
       </li>-->
     </ul>
+    {% else %}
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <a href="/fellows/" class="">Test</a>
+      </li>
+    </ul>
+    {% endif %}
   </nav>
 </aside>

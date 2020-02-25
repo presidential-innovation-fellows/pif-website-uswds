@@ -1,6 +1,6 @@
 ---
-id: babitch-steven
-name: Steven Babitch
+id: steven-babitch
+title: Steven Babitch
 image: babitch-steven-headshot.jpg
 fellow_year: 2015
 hometown: "Detroit, MI"

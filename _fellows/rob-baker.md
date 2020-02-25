@@ -1,6 +1,6 @@
 ---
-id: baker-rob
-name: Rob Baker
+id: rob-baker
+title: Rob Baker
 image: baker-rob-headshot.png
 fellow_year: 2013
 hometown: "Cambridge, MA"
