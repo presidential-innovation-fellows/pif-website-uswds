@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Fellows
+layout: fellowlanding
+title: 2013 Fellows
 sidenav: true
+banner: true
 pagination:
   enabled: true
   collection: fellows
@@ -9,22 +10,4 @@ pagination:
   tag: '2013'
 ---
 
-{% assign filtered_fellows = paginator.posts %}
-{% for fellow in filtered_fellows %}
-
-<div class="grid-row grid-gap">
-  <div class="desktop:grid-col-4 tablet:grid-col-4 usa-prose">
-    {% if fellow.image %}
-    {% asset "{{ fellow.image }}" class="" alt="{{ fellow.image_alt_text }}" %}
-    {% endif %}
-  </div>
-  <div class="desktop:grid-col-8 usa-prose">
-    <h1><a href="{{ fellow.url }}">{{ fellow.title }}</a></h1>
-    <div class="content">
-    {{ fellow.content }}
-    </div>
-  </div>
-</div>
-{% endfor %}
-
-{% include pagination.html %}
+{% include fellow-list.html fellows=paginator.posts %}

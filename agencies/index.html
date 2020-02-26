@@ -22,7 +22,7 @@ permalink: /agencies/
       <div class="grid-container">
       <div class="grid-row grid-gap">
         {% for agency in site.data.agencies %}
-        <div class="grid-col-3">
+        <div class="tablet:grid-col-3 mobile:grid-col-2">
           <h3><a href="{{ site.baseurl }}/agencies/{{ agency.url }}" class="usa-link usa-link--external">{{ agency.fullname }}</a></h3>
           {% asset "{{ agency.name }}.png" alt="{{ agency.name }} logo" class="square-10" %}
         </div>

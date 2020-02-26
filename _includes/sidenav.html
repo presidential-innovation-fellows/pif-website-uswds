@@ -6,8 +6,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 {% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
   <nav>
-
-    {% if navurl == '{{ site.baseurl }}/fellows/' %}
+    {% if include.fellows_landing %}
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
         <a href="{{ site.baseurl }}/fellows/" class="{% if navurl == '{{ site.baseurl }}/fellows/' %}usa-current{% endif %}">Class</a>
@@ -52,6 +51,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
     </ul>
     {% else %}
     <!-- On the fellows page -->
+    {% if include.pif_project_id %}
     <h2>Project</h2>
     <ul class="usa-sidenav">
       {% for project in site.projects %}
@@ -62,6 +62,9 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
       {% endif %}
       {% endfor %}
     </ul>
+    {% endif %}
+    
+    {% if include.pif_agency %}
     <h2>Agency</h2>
     <ul class="usa-sidenav">
       {% for agency in site.data.agencies %}
@@ -72,6 +75,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
       {% endif %}
       {% endfor %}
     </ul>
+    {% endif %}
     
     {% endif %}
   </nav>
