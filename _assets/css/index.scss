@@ -139,3 +139,29 @@
   }
 
 }
+
+.partner-card {
+  @include u-margin(1);
+  @include u-padding-y(4);
+  @include u-border(1px);
+  @include u-border('base-light');
+
+  h5 {
+    @include u-margin-y(1);
+  }
+
+  a {
+    @include u-color('ink');
+  }
+
+  img {
+    @include u-square(9);
+    @include u-float('left');
+    @include u-margin-right(2);
+
+  }
+}
+
+ul.project-fellows li {
+  list-style: none;
+}
