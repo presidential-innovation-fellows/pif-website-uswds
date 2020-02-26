@@ -11,7 +11,7 @@ This template is for a single page that does not have a date associated with it.
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      {% include sidenav.html pif_project_id=page.project_id  pif_agency=page.agency %}
+      {% include sidenav.html pif_project=page.project  pif_agency=page.agency %}
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
 
         {% if page.image %}
