@@ -47,38 +47,15 @@
   .usa-hero__callout {
     max-width: 25rem;
   }
-  .site-nav {
-    float: right;
-    position: relative;
-    padding: 0;
-  }
+
   .site-navbar__logo {
     width: 200px;
     margin-left: 0;
   }
   .site-header {
-    // align-items: center;
-    // display: flex;
-    // justify-content: space-between;
+
     padding: units('105');
     width: 100%;
-  }
-  .site-navbar {
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
-    // height: auto;
-    // padding: 0;
-  }
-  .site-c-navbar__logo-link {
-    display: flex;
-    margin: 0;
-    display: block;
-  }
-  .usa-nav__primary {
-    align-items: baseline;
-    display: flex;
-    margin: 0;
   }
 
 }
