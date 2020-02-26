@@ -16,38 +16,13 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
           </li>
           <li class="usa-sidenav__item">
             <a href="{{ site.baseurl }}/fellows/2013/" class="{% if navurl == '{{ site.baseurl }}/fellows/2013/' %}usa-current{% endif %}">2013 Fellows</a>
-            <!--<ul class="usa-sidenav__sublist">
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="" class="usa-current">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-            </ul>-->
+
           </li>
           <li class="usa-sidenav__item">
             <a href="{{ site.baseurl }}/fellows/2015/" class="{% if navurl == '{{ site.baseurl }}/fellows/2015/' %}usa-current{% endif %}">2015 Fellows</a>
           </li>
-          <!--<li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>-->
         </ul>
       </li>
-      <!--<li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>-->
     </ul>
     {% else %}
     <!-- On the fellows page -->
@@ -55,7 +30,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
     <h2>Project</h2>
     <ul class="usa-sidenav">
       {% for project in site.projects %}
-      {% if include.pif_project_id == project.id %}
+      {% if include.pif_project_id contains project.id %}
       <li class="usa-sidenav__item">
           <a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a>
       </li>
@@ -68,7 +43,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
     <h2>Agency</h2>
     <ul class="usa-sidenav">
       {% for agency in site.data.agencies %}
-      {% if include.pif_agency == agency.name %}
+      {% if include.pif_agency contains agency.name %}
       <li class="padding-y-2">
           {{ agency.fullname }}
       </li>

@@ -4,9 +4,9 @@ title: Phil Ashlock
 image: ashlock-phil-headshot.png
 fellow_year: 2012
 hometown: "Anacortes, WA"
-project: nih-all-of-us
+project: ["nih-all-of-us"]
 project_id: /projects/nih-all-of-us
-agency: NIH
+agency: ["NIH"]
 region: west
 bio_short: "Creator of civic infrastructure for open government & digital services. Co-author of the Open311 standard and Chief Architect at Data.gov"
 tags: [west, 2012]
