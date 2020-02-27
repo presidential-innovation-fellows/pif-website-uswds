@@ -10,8 +10,8 @@ The Presidential Innovation Fellows (PIF) program is a highly selective, non-par
 
 The program was launched in 2012 by former U.S. Chief Technology Officer Todd Park, and since then, more than [150 Fellows]({{ site.baseurl}}/fellows) have worked within over [35 agencies]({{ site.baseurl }}/projects). Over half of the Fellows have decided to stay in government after the PIF program, and have gone on to lead new digital teams and serve as chief technology officers, chief information officers, chief data officers, and chief marketing officers at various agencies.
 
-<button class="usa-button margin-x-auto
-" href="https://docs.google.com/forms/d/e/1FAIpQLSeBcchOOe_fGQgRi4ks57xLEGpSf3w0CB8Tx44N7Bf5E_vixw/viewform">Apply now</button>
+<button class="usa-button width-full"
+ href="https://docs.google.com/forms/d/e/1FAIpQLSeBcchOOe_fGQgRi4ks57xLEGpSf3w0CB8Tx44N7Bf5E_vixw/viewform">Apply now</button>
 
 ## Skills and expertise
 We’re looking for high-performing data scientists, designers, engineers, executives, innovators, product managers, and technology strategists that care deeply about solving our nation’s most difficult challenges and want to deliver better products, services, and experiences to the American public.
@@ -41,4 +41,4 @@ Helping the U.S. Marine Corps conduct a digital and data transformation to keep 
 Have more questions? Read more about the position here and check out our FAQ page.
 
 
-<button class="usa-button usa-button--big margin-x-auto" href="https://docs.google.com/forms/d/e/1FAIpQLSeBcchOOe_fGQgRi4ks57xLEGpSf3w0CB8Tx44N7Bf5E_vixw/viewform">Apply now</button>
+<button class="usa-button usa-button--big width-full" href="https://docs.google.com/forms/d/e/1FAIpQLSeBcchOOe_fGQgRi4ks57xLEGpSf3w0CB8Tx44N7Bf5E_vixw/viewform">Apply now</button>
