@@ -47,38 +47,15 @@
   .usa-hero__callout {
     max-width: 25rem;
   }
-  .site-nav {
-    float: right;
-    position: relative;
-    padding: 0;
-  }
+
   .site-navbar__logo {
     width: 200px;
     margin-left: 0;
   }
   .site-header {
-    // align-items: center;
-    // display: flex;
-    // justify-content: space-between;
+
     padding: units('105');
     width: 100%;
-  }
-  .site-navbar {
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
-    // height: auto;
-    // padding: 0;
-  }
-  .site-c-navbar__logo-link {
-    display: flex;
-    margin: 0;
-    display: block;
-  }
-  .usa-nav__primary {
-    align-items: baseline;
-    display: flex;
-    margin: 0;
   }
 
 }
@@ -138,4 +115,30 @@
     display: none;
   }
 
+}
+
+.partner-card {
+  @include u-margin(1);
+  @include u-padding-y(4);
+  @include u-border(1px);
+  @include u-border('base-light');
+
+  h5 {
+    @include u-margin-y(1);
+  }
+
+  a {
+    @include u-color('ink');
+  }
+
+  img {
+    @include u-square(9);
+    @include u-float('left');
+    @include u-margin-right(2);
+
+  }
+}
+
+ul.project-fellows li {
+  list-style: none;
 }

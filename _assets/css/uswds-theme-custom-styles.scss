@@ -84,3 +84,16 @@ i.e.
   @include u-text('white');
   text-decoration: none;
 }
+
+.usa-prose > a.usa-button {
+  color: white;
+}
+
+.usa-header--basic .usa-nav-container {
+  @include at-media('desktop') {
+    width: 100%;
+    max-width: unset;
+    align-items: flex-start;
+  }
+}
+

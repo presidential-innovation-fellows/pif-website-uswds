@@ -6,7 +6,7 @@ permalink: /agencies/
 
 {% include banner.html %}
 
-<div class="grid-container">
+<div class="grid-container usa-section">
   <div class="grid-row">
     <div class="usa-layout-docs__main desktop:grid-col-12 usa-prose usa-layout-docs">
       <h2>How We Work</h2>
@@ -16,10 +16,27 @@ permalink: /agencies/
       <a class="usa-button" href="https://proposal.pif.gov">Submit a project</a>
     </div>
   </div>
-  <div class="grid-row">
+  <div class="grid-row usa-section">
     <div class="usa-layout-docs__main desktop:grid-col-12 usa-prose usa-layout-docs">
       <h2>Agencies We've Worked With</h2>
-      <p>List logos</p>
+      <div class="grid-container">
+      <div class="grid-row grid-gap">
+        {% for agency in site.data.agencies %}
+        <div class="tablet:grid-col-3 mobile:grid-col-2 partner-card">
+          <h5>
+            <a href="{{ agency.url }}" class="usa-link usa-link--external">{{ agency.fullname }}</a>
+          </h5>
+          {% asset "{{ agency.name }}.png" alt="{{ agency.name }} logo"  %}
+          </div>
+        <!-- <div class="tablet:grid-col-3 mobile:grid-col-2">
+          <h3><a href="{{ site.baseurl }}/agencies/{{ agency.url }}" class="usa-link usa-link--external">{{ agency.fullname }}</a></h3>
+          {% asset "{{ agency.name }}.png" alt="{{ agency.name }} logo" class="square-10" %}
+        </div> -->
+        {% endfor %}
+      </div>
+
+      </div>
+      
     </div>
   </div>
   <!-- <div class="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">

@@ -45,6 +45,23 @@ layout: default
         </div>
         <h2>What we're doing</h2>
         {{ content }}
+
+        <h2>Fellows</h2>
+        <ul class="project-fellows">
+          {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture%}
+          {% for fellow in site.fellows %}
+            {% if fellow.project contains project_id %}
+              <li>
+                <a href="{{ site.baseurl }}{{ fellow.url }}">
+                {% asset "{{ fellow.image }}" class="circle-6 float-left margin-right-2" %}
+                {{ fellow.title }}
+              </a>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+
       </div>
     </div>
   </div>
