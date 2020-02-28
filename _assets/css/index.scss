@@ -64,10 +64,6 @@
   padding: units(2);
 }
 
-.breadcrumb a:visited {
-
-}
-
 @media screen and (max-width: 64em) {
   .usa-logo__text {
     width: 10em;
@@ -119,14 +115,12 @@
 
 .partner-card {
   @include u-margin-y(2);
-
-
+  
   div {
     @include u-padding(3);
-    @include u-padding-bottom(5);
     @include u-border(1px);
     @include u-border('base-light');
-    @include u-minh(10);
+    @include clearfix;
 
   }
 
@@ -145,4 +139,15 @@
 
 ul.project-fellows li {
   list-style: none;
+}
+
+.project-item {
+  @include u-padding-bottom(5);
+  @include u-margin-top(4);
+  @include u-border-bottom('05');
+  @include u-border-bottom('base-light');
+  @include at-media(tablet) {
+    @include grid-col(6);
+  }
+  @include clearfix;
 }

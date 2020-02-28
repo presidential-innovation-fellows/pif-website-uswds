@@ -14,4 +14,4 @@ Johnny Martin is a software development entrepreneur from San Jose, California. 
 
 Johnny enjoys public speaking and has even won some awards. He has successfully encouraged his former students and employees to publish many technical articles, and ever authored a few of his own. Johnny enjoys staying on top of emerging technologies and still writes code.
 
-Johnny is a black belt with Shotokan Karate of America and holds a Ph.D. in Computer Science from the University of Minnesota."
+Johnny is a black belt with Shotokan Karate of America and holds a Ph.D. in Computer Science from the University of Minnesota.
