@@ -144,10 +144,23 @@ ul.project-fellows li {
 .project-item {
   @include u-padding-bottom(5);
   @include u-margin-top(4);
-  @include u-border-bottom('05');
+  @include u-border-bottom('2px');
   @include u-border-bottom('base-light');
   @include at-media(tablet) {
     @include grid-col(6);
   }
   @include clearfix;
+
+  h3 {
+    @include u-margin-top(0);
+  }
+
+  img {
+    @include at-media(tablet) {
+      @include u-float('left');
+    }
+    @include u-margin-right(3);
+    @include u-margin-top(1);
+    @include u-circle(10);
+  }
 }
