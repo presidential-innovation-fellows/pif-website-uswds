@@ -6,6 +6,7 @@ fellow_year: 2020
 project: ["usda-farmers","nih-all-of-us"]
 agency: ["USDA","NIH"]
 hometown: "Johns Creek, GA"
+region: south
 bio_short: "Lifelong Learner, Researcher, Technologist, Teambuilder, and Innovator. Architect and developer of complex systems, and a student of literature, religion, and history."
 tags: [south, 2020]
 ---

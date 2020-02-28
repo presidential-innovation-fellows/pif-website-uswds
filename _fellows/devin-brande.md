@@ -6,6 +6,7 @@ fellow_year: 2020
 project: ["navy-dwo"]
 agency: ["Navy"]
 hometown: "Washington, DC"
+region: south
 bio_short: "Technologist and innovator aspiring to help develop and deliver the next generation of solutions to everyday users. Experienced at the intersection of venture-backed innovation and the U.S. Government."
 tags: [south, 2020]
 ---
