@@ -22,7 +22,7 @@ permalink: /projects/
         {% if 'case-study'== project.status %}
           <div class="tablet:grid-col-3">
               {% if project.agency_logo %}
-              {% asset "{{ project.agency_logo }}" class="tablet:float-left padding-right-3 padding-top-1 square-15" alt="{{ project.image_alt_text }}" %}
+              {% asset "{{ project.agency_logo }}" class="square-cards" alt="{{ project.image_alt_text }}" %}
               {% endif %}
               <div class="width-2/3">
                 <h3 class="title">

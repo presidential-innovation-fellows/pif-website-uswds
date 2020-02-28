@@ -3,7 +3,7 @@ id: usda-farmers
 agency: "U.S. Department of Agriculture"
 agency_abbrev: "USDA"
 agency_logo: "USDA.png"
-title: "U.S. Department of Agriculture's Farmers.gov"
+title: "Farmers.gov"
 summary: "Helping the U.S. Department of Agriculture re-imagine how it engages with its customers: America’s farmers, ranchers, conservationists, and private foresters"
 cover_art: "all-of-us-participants.jpg"
 subtitle: "How might the U.S. Department of Agriculture deliver a better experience for America's farmers?"
