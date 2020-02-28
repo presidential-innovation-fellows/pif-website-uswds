@@ -118,17 +118,21 @@
 }
 
 .partner-card {
-  @include u-margin(1);
-  @include u-padding-y(4);
-  @include u-border(1px);
-  @include u-border('base-light');
+  @include u-margin-y(2);
 
-  h5 {
-    @include u-margin-y(1);
+
+  div {
+    @include u-padding(3);
+    @include u-padding-bottom(5);
+    @include u-border(1px);
+    @include u-border('base-light');
+    @include u-minh(10);
+
   }
 
   a {
     @include u-color('ink');
+    @include u-font-size('sans', 'xs');
   }
 
   img {
