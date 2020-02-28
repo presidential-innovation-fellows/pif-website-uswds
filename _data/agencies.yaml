@@ -1,28 +1,33 @@
 # We can add any kind of data in this _data folder and this file.
-# In this example, we create a simple array of options and then in the _pages/collections.md file we 
-# Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
+# In this example, we create a simple array of options and then in the _pages/collections.md file we
+# Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it
 # This is simple, hopefully provides you with a good enough example to make changes as needed
 - name: GSA
   fullname: General Services Administration
   url: https://gsa.gov
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
 
 - name: USDA
   fullname: Department of Agriculture
   url: http://usda.gov/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+
+- name: Navy
+  fullname: Department of the Navy
+  url: https://navy.mil
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
 
 - name: NIH
   fullname: National Institutes of Health
   url: nih.gov
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
 
 - name: FBI
   fullname: Federal Bureau of Investigation
   url: https://fbi.gov
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
-- name: DIUX
-  fullname: Defense Innovation Thingy
-  url: https://diux.gov
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
 
+- name: DIU
+  fullname: Defense Innovation Unit
+  url: https://www.diu.mil/
+  description: Defense Innovation Unit is a fast-moving Department of Defense organization that contracts with commercial companies to solve national security problems.

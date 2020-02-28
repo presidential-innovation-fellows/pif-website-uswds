@@ -12,28 +12,29 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
         <a href="{{ site.baseurl }}/fellows/" class="{% if navurl == '{{ site.baseurl }}/fellows/' %}usa-current{% endif %}">Class</a>
         <ul class="usa-sidenav__sublist">
           <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2012/" class="{% if navurl == '{{ site.baseurl }}/fellows/2012/' %}usa-current{% endif %}">2012 Fellows</a>
+            <a href="{{ site.baseurl }}/fellows/2020/" class="{% if navurl == '{{ site.baseurl }}/fellows/2020/' %}usa-current{% endif %}">2020 Fellows</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2013/" class="{% if navurl == '{{ site.baseurl }}/fellows/2013/' %}usa-current{% endif %}">2013 Fellows</a>
-
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2014/" class="{% if navurl == '{{ site.baseurl }}/fellows/2014/' %}usa-current{% endif %}">2014 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2015/" class="{% if navurl == '{{ site.baseurl }}/fellows/2015/' %}usa-current{% endif %}">2015 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2016/" class="{% if navurl == '{{ site.baseurl }}/fellows/2016/' %}usa-current{% endif %}">2016 Fellows</a>
+            <a href="{{ site.baseurl }}/fellows/2019/" class="{% if navurl == '{{ site.baseurl }}/fellows/2019/' %}usa-current{% endif %}">2019 Fellows</a>
           </li>
           <li class="usa-sidenav__item">
             <a href="{{ site.baseurl }}/fellows/2017/" class="{% if navurl == '{{ site.baseurl }}/fellows/2017/' %}usa-current{% endif %}">2017 Fellows</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2019/" class="{% if navurl == '{{ site.baseurl }}/fellows/2019/' %}usa-current{% endif %}">2019 Fellows</a>
+            <a href="{{ site.baseurl }}/fellows/2016/" class="{% if navurl == '{{ site.baseurl }}/fellows/2016/' %}usa-current{% endif %}">2016 Fellows</a>
           </li>
-          
+          <li class="usa-sidenav__item">
+            <a href="{{ site.baseurl }}/fellows/2015/" class="{% if navurl == '{{ site.baseurl }}/fellows/2015/' %}usa-current{% endif %}">2015 Fellows</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{ site.baseurl }}/fellows/2014/" class="{% if navurl == '{{ site.baseurl }}/fellows/2014/' %}usa-current{% endif %}">2014 Fellows</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{ site.baseurl }}/fellows/2013/" class="{% if navurl == '{{ site.baseurl }}/fellows/2013/' %}usa-current{% endif %}">2013 Fellows</a>
+          </li>
+          <li class="usa-sidenav__item">
+            <a href="{{ site.baseurl }}/fellows/2012/" class="{% if navurl == '{{ site.baseurl }}/fellows/2012/' %}usa-current{% endif %}">2012 Fellows</a>
+          </li>
         </ul>
       </li>
     </ul>
@@ -52,20 +53,20 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
       {% endfor %}
     </ul>
     {% endif %}
-    
+
     {% if include.pif_agency %}
-    <h2>Agency</h2>
+    <h2>{% if include.pif_agency | size > 1 %}Agencies{% else %}Agency{% endif %}</h2>
     <ul class="usa-sidenav">
       {% for agency in site.data.agencies %}
       {% if include.pif_agency contains agency.name %}
-      <li class="padding-y-2">
-          {{ agency.fullname }}
+      <li class="">
+          <span>{{ agency.fullname }}</span>
       </li>
       {% endif %}
       {% endfor %}
     </ul>
     {% endif %}
-    
+
     {% endif %}
   </nav>
 </aside>
