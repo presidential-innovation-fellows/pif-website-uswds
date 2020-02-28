@@ -163,4 +163,7 @@ ul.project-fellows li {
     @include u-margin-top(1);
     @include u-circle(10);
   }
+  p {
+    font-size: 14px;
+  }
 }

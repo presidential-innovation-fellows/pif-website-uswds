@@ -1,16 +1,16 @@
 <div class="grid-container">
-    <div class="grid-row">
+    <div class="grid-row grid-gap">
 {% for project in site.projects %}
     {% if include.project_filter == project.status %}
       <div class="project-item usa-prose">
-          {% if project.agency_logo %}
-          {% asset "{{ project.agency_logo }}" alt="{{ project.image_alt_text }}" %}
-          {% endif %}
-          <div class="width-2/3">
+          <div class="clearfix">
+            {% if project.agency_logo %}
+            {% asset "{{ project.agency_logo }}" alt="{{ project.image_alt_text }}" %}
+            {% endif %}
             <h3 class="title">
                 <a class="usa-link text-no-underline" href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a>
             </h3>
-                <span class="text-bold">{{ project.agency }}</span>
+            {{ project.agency }}
         </div>
       </div>
     {% endif %}
