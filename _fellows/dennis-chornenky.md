@@ -1,7 +1,7 @@
 ---
 id: dennis-chornenky
 title: Dennis Chornenky
-image: chornenky-dennis-headshot.jpg
+image: dennis-chornenky-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

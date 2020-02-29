@@ -1,7 +1,7 @@
 ---
 id: johnny-martin
 title: Johnny Martin
-image: martin-johnny-headshot.jpg
+image: johnny-martin-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: cc-gong
 title: C.C. Gong
-image: gong-cc-headshot.jpg
+image: cc-gong-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

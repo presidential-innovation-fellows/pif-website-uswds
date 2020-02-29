@@ -1,7 +1,7 @@
 ---
 id: beverly-park-woolf
 title: Dr. Beverly Park Woolf
-image: park-woolf-beverly-headshot.png
+image: beverly-park-woolf-headshot.png
 fellow_year: 2013
 project: []
 agency: []

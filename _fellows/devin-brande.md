@@ -1,7 +1,7 @@
 ---
 id: devin-brande
 title: Devin Brande
-image: brande-devin-headshot.jpg
+image: devin-brande-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

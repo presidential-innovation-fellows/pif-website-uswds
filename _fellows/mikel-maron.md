@@ -1,7 +1,7 @@
 ---
 id: mikel-maron
 title: Mikel Maron
-image: maron-mikel-headshot.png
+image: mikel-maron-headshot.png
 fellow_year: 2014
 project: []
 agency: []

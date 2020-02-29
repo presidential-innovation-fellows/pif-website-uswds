@@ -1,7 +1,7 @@
 ---
 id: emily-ianacone
 title: Emily Ianacone
-image: ianacone-emily-headshot.jpg
+image: emily-ianacone-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

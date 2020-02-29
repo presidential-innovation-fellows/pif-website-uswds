@@ -1,7 +1,7 @@
 ---
 id: joy-whitt
 title: Joy Whitt
-image: whitt-joy-headshot.jpg
+image: joy-whitt-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

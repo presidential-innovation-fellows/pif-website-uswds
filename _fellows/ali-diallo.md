@@ -1,7 +1,7 @@
 ---
 id: ali-diallo
 title: Ali Diallo
-image: diallo-ali-headshot.jpg
+image: ali-diallo-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

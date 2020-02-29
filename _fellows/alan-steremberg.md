@@ -1,7 +1,7 @@
 ---
 id: alan-steremberg
 title: Alan Steremberg
-image: steremberg-alan-headshot.png
+image: alan-steremberg-headshot.png
 fellow_year: 2014
 project: []
 agency: []

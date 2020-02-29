@@ -1,7 +1,7 @@
 ---
 id: adam-dole
 title: Adam Dole
-image: dole-adam-headshot.png
+image: adam-dole-headshot.png
 fellow_year: 2013
 project: []
 agency: []

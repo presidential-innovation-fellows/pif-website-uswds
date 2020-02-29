@@ -1,7 +1,7 @@
 ---
 id: sandeep-burugupalli
 title: Sandeep Burugupalli
-image: burugupalli-sandeep-headshot.jpg
+image: sandeep-burugupalli-headshot.jpg
 fellow_year: 2017
 project: []
 agency: []

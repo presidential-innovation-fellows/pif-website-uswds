@@ -1,7 +1,7 @@
 ---
 id: sean-herron
 title: Sean Herron
-image: herron-sean-headshot.png
+image: sean-herron-headshot.png
 fellow_year: 2013
 project: []
 agency: []

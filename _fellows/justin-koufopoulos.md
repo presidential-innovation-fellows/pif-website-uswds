@@ -1,7 +1,7 @@
 ---
 id: justin-koufopoulos
 title: Justin Koufopoulos
-image: koufopoulos-justin-headshot.jpg
+image: justin-koufopoulos-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

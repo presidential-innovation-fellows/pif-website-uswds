@@ -1,7 +1,7 @@
 ---
 id: maura-newell
 title: Maura Newell
-image: newell-maura-headshot.jpg
+image: maura-newell-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

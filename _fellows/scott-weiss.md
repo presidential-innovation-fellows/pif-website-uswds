@@ -1,7 +1,7 @@
 ---
 id: scott-weiss
 title: Scott Weiss
-image: weiss-scott-headshot.jpg
+image: scott-weiss-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

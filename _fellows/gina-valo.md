@@ -1,7 +1,7 @@
 ---
 id: gina-valo
 title: Gina Valo
-image: valo-gina-headshot.jpg
+image: gina-valo-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

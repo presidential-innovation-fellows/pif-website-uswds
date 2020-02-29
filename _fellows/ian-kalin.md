@@ -1,7 +1,7 @@
 ---
 id: ian-kalin
 title: Ian Kalin
-image: kalin-ian-headshot.png
+image: ian-kalin-headshot.png
 fellow_year: 2012
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: robert-read
 title: Robert Read
-image: read-robert-headshot.png
+image: robert-read-headshot.png
 fellow_year: 2013
 project: []
 agency: []

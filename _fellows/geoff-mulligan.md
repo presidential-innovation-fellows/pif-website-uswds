@@ -1,7 +1,7 @@
 ---
 id: geoff-mulligan
 title: Geoff Mulligan
-image: mulligan-geoff-headshot.png
+image: geoff-mulligan-headshot.png
 fellow_year: 2013
 project: []
 agency: []

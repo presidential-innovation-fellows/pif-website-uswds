@@ -1,7 +1,7 @@
 ---
 id: zach-goldfine
 title: Zach Goldfine
-image: goldfine-zach-headshot.jpg
+image: zach-goldfine-headshot.jpg
 fellow_year: 2017
 project: []
 agency: []

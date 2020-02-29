@@ -1,7 +1,7 @@
 ---
 id: minh-chau
 title: Minh Chau
-image: chau-minh-headshot.jpg
+image: minh-chau-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

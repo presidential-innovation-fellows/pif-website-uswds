@@ -1,7 +1,7 @@
 ---
 id: dan-hammer
 title: Dan Hammer
-image: hammer-dan-headshot.png
+image: dan-hammer-headshot.png
 fellow_year: 2014
 project: []
 agency: []

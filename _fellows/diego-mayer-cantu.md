@@ -1,7 +1,7 @@
 ---
 id: diego-mayer-cantu
 title: Diego Mayer-Cantu
-image: mayer-cantu-diego-headshot.png
+image: diego-mayer-cantu-headshot.png
 fellow_year: 2013
 project: []
 agency: []

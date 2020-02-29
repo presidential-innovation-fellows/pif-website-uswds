@@ -1,7 +1,7 @@
 ---
 id: danny-chapman
 title: Danny Chapman
-image: chapman-danny-headshot.png
+image: danny-chapman-headshot.png
 fellow_year: 2012
 project: []
 agency: []

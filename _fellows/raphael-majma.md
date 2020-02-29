@@ -1,7 +1,7 @@
 ---
 id: raphael-majma
 title: Raphael Majma
-image: majma-raphael-headshot.png
+image: raphael-majma-headshot.png
 fellow_year: 2012
 project: []
 agency: []

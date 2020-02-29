@@ -1,7 +1,7 @@
 ---
 id: amrita-basu
 title: Dr. Amrita Basu
-image: basu-amrita-headshot.jpg
+image: amrita-basu-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

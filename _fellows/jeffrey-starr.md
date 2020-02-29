@@ -1,7 +1,7 @@
 ---
 id: jeffrey-starr
 title: Jeffrey Starr
-image: starr-jeffrey-headshot.jpg
+image: jeffrey-starr-headshot.jpg
 fellow_year: 2017
 project: []
 agency: []

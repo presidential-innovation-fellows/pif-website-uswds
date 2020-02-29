@@ -1,7 +1,7 @@
 ---
 id: clara-tsao
 title: Clara Tsao
-image: tsao-clara-headshot.jpg
+image: clara-tsao-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

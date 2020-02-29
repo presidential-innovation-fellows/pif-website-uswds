@@ -1,7 +1,7 @@
 ---
 id: david-caraway
 title: David Caraway
-image: caraway-david-headshot.png
+image: david-caraway-headshot.png
 fellow_year: 2013
 project: []
 agency: []

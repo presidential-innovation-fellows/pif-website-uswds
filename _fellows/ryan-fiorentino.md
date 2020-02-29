@@ -1,7 +1,7 @@
 ---
 id: ryan-fiorentino
 title: Ryan Fiorentino
-image: fiorentino-ryan-headshot.jpg
+image: ryan-fiorentino-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

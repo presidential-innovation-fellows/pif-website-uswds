@@ -1,7 +1,7 @@
 ---
 id: michelle-hertzfeld
 title: Michelle Hertzfeld
-image: hertzfeld-michelle-headshot.png
+image: michelle-hertzfeld-headshot.png
 fellow_year: 2013
 project: []
 agency: []

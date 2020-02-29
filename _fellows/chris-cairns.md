@@ -1,7 +1,7 @@
 ---
 id: chris-cairns
 title: Chris Cairns
-image: cairns-chris-headshot.png
+image: chris-cairns-headshot.png
 fellow_year: 2013
 project: []
 agency: []

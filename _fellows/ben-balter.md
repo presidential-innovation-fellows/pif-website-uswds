@@ -1,7 +1,7 @@
 ---
 id: ben-balter
 title: Ben Balter
-image: balter-ben-headshot.png
+image: ben-balter-headshot.png
 fellow_year: 2012
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: derek-frempong
 title: Derek Frempong
-image: frempong-derek-headshot.png
+image: derek-frempong-headshot.png
 fellow_year: 2013
 project: []
 agency: []

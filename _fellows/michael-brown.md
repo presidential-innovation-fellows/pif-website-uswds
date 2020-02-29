@@ -1,7 +1,7 @@
 ---
 id: michael-brown
 title: Michael Brown
-image: brown-michael-headshot.jpg
+image: michael-brown-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: tyrone-grandison
 title: Dr. Tyrone Grandison
-image: grandison-tyrone-headshot.png
+image: tyrone-grandison-headshot.png
 fellow_year: 2014
 project: []
 agency: []

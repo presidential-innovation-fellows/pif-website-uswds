@@ -1,7 +1,7 @@
 ---
 id: nayan-jain
 title: Nayan Jain
-image: jain-nayan-headshot.png
+image: nayan-jain-headshot.png
 fellow_year: 2013
 project: []
 agency: []

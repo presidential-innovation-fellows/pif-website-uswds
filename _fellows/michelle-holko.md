@@ -1,7 +1,7 @@
 ---
 id: michelle-holko
 title: Michelle Holko
-image: holko-michelle-headshot.jpg
+image: michelle-holko-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

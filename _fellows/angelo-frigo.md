@@ -1,7 +1,7 @@
 ---
 id: angelo-frigo
 title: Angelo Frigo
-image: frigo-angelo-headshot.jpg
+image: angelo-frigo-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

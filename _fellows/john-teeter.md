@@ -1,7 +1,7 @@
 ---
 id: john-teeter
 title: John Teeter
-image: teeter-john-headshot.png
+image: john-teeter-headshot.png
 fellow_year: 2013
 project: []
 agency: []

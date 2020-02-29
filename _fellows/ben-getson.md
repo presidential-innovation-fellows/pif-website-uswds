@@ -1,7 +1,7 @@
 ---
 id: ben-getson
 title: Ben Getson
-image: getson-ben-headshot.png
+image: ben-getson-headshot.png
 fellow_year: 2014
 project: []
 agency: []

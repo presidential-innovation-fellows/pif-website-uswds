@@ -1,7 +1,7 @@
 ---
 id: nevin-taylor
 title: Nevin Taylor
-image: taylor-nevin-headshot.jpg
+image: nevin-taylor-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

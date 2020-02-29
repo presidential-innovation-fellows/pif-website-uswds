@@ -1,7 +1,7 @@
 ---
 id: kin-lane
 title: Kin Lane
-image: lane-kin-headshot.png
+image: kin-lane-headshot.png
 fellow_year: 2013
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: rachel-gordon
 title: Rachel Gordon
-image: gordon-rachel-headshot.png
+image: rachel-gordon-headshot.png
 fellow_year: 2014
 project: []
 agency: []

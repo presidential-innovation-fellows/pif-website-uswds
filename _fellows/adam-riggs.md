@@ -1,7 +1,7 @@
 ---
 id: adam-riggs
 title: Adam Riggs
-image: riggs-adam-headshot.png
+image: adam-riggs-headshot.png
 fellow_year: 2013
 project: []
 agency: []

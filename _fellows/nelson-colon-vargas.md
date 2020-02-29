@@ -1,7 +1,7 @@
 ---
 id: nelson-colon-vargas
 title: Nelson A. Colón Vargas
-image: colon-vargas-nelson-headshot.jpg
+image: nelson-colon-vargas-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

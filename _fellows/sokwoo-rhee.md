@@ -1,7 +1,7 @@
 ---
 id: sokwoo-rhee
 title: Dr. Sokwoo Rhee
-image: rhee-sokwoo-headshot.png
+image: sokwoo-rhee-headshot.png
 fellow_year: 2013
 project: []
 agency: []

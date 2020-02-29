@@ -1,7 +1,7 @@
 ---
 id: georgeta-dragoiu
 title: Georgeta Dragoiu
-image: dragoiu-georgeta-headshot.jpg
+image: georgeta-dragoiu-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

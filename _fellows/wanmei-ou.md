@@ -1,7 +1,7 @@
 ---
 id: wanmei-ou
 title: Wanmei Ou
-image: ou-wanmei-headshot.jpg
+image: wanmei-ou-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

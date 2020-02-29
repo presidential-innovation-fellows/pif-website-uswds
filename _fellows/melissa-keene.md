@@ -1,7 +1,7 @@
 ---
 id: melissa-keene
 title: Melissa Keene
-image: keene-melissa-headshot.jpg
+image: melissa-keene-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

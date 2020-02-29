@@ -1,7 +1,7 @@
 ---
 id: amos-stone
 title: Amos Stone
-image: stone-amos-headshot.png
+image: amos-stone-headshot.png
 fellow_year: 2013
 project: []
 agency: []

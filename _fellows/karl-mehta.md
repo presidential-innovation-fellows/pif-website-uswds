@@ -1,7 +1,7 @@
 ---
 id: karl-mehta
 title: Karl Mehta
-image: mehta-karl-headshot.png
+image: karl-mehta-headshot.png
 fellow_year: 2012
 project: []
 agency: []

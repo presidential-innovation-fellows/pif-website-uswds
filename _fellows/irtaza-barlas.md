@@ -1,7 +1,7 @@
 ---
 id: irtaza-barlas
 title: Irtaza Barlas
-image: barlas-irtaza-headshot.jpg
+image: irtaza-barlas-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

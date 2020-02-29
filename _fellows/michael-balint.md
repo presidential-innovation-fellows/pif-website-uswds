@@ -1,7 +1,7 @@
 ---
 id: michael-balint
 title: Michael Balint
-image: balint-michael-headshot.jpg
+image: michael-balint-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

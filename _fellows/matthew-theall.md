@@ -1,7 +1,7 @@
 ---
 id: matthew-theall
 title: Matthew Theall
-image: theall-matthew-headshot.png
+image: matthew-theall-headshot.png
 fellow_year: 2013
 project: []
 agency: []

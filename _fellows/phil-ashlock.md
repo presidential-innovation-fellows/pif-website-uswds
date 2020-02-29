@@ -1,7 +1,7 @@
 ---
 id: phil-ashlock
 title: Phil Ashlock
-image: ashlock-phil-headshot.png
+image: phil-ashlock-headshot.png
 fellow_year: 2012
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: christopher-corpuel
 title: Christopher Corpuel
-image: corpuel-christopher-headshot.jpg
+image: christopher-corpuel-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

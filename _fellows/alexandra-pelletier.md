@@ -1,7 +1,7 @@
 ---
 id: alexandra-pelletier
 title: Alexandra Pelletier
-image: pelletier-alexandra-headshot.jpg
+image: alexandra-pelletier-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

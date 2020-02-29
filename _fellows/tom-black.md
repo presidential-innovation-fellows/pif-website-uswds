@@ -1,7 +1,7 @@
 ---
 id: tom-black
 title: Tom Black
-image: black-tom-headshot.png
+image: tom-black-headshot.png
 fellow_year: 2013
 project: []
 agency: []

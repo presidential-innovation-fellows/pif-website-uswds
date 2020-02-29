@@ -1,7 +1,7 @@
 ---
 id: maria-dayton
 title: Maria Lynne Dayton
-image: dayton-maria-headshot.jpg
+image: maria-dayton-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

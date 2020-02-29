@@ -1,7 +1,7 @@
 ---
 id: steven-babitch
 title: Steven Babitch
-image: babitch-steven-headshot.jpg
+image: steven-babitch-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

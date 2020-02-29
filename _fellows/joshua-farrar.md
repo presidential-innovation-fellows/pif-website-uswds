@@ -1,7 +1,7 @@
 ---
 id: joshua-farrar
 title: Joshua Farrar
-image: farrar-joshua-headshot.jpg
+image: joshua-farrar-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

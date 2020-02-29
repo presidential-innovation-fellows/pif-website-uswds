@@ -1,7 +1,7 @@
 ---
 id: lea-shanley
 title: Lea Shanley
-image: shanley-lea-headshot.png
+image: lea-shanley-headshot.png
 fellow_year: 2014
 project: []
 agency: []

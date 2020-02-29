@@ -1,7 +1,7 @@
 ---
 id: nathaniel-manning
 title: Nathaniel Manning
-image: manning-nathaniel-headshot.png
+image: nathaniel-manning-headshot.png
 fellow_year: 2012
 project: []
 agency: []

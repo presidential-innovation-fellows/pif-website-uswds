@@ -1,7 +1,7 @@
 ---
 id: eric-daimler
 title: Eric Daimler
-image: daimler-eric-headshot.jpg
+image: eric-daimler-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

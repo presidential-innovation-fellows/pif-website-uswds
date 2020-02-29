@@ -1,7 +1,7 @@
 ---
 id: timothy-jones
 title: Timothy Jones
-image: jones-timothy-headshot.png
+image: timothy-jones-headshot.png
 fellow_year: 2014
 project: []
 agency: []

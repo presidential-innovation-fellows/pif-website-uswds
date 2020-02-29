@@ -1,7 +1,7 @@
 ---
 id: bosco-so
 title: Bosco So
-image: so-bosco-headshot.png
+image: bosco-so-headshot.png
 fellow_year: 2014
 project: []
 agency: []

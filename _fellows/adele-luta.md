@@ -1,7 +1,7 @@
 ---
 id: adele-luta
 title: Adele Luta
-image: luta-adele-headshot.jpg
+image: adele-luta-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

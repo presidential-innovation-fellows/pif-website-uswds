@@ -1,7 +1,7 @@
 ---
 id: ej-kalafarski
 title: EJ Kalafarski
-image: kalafarski-ej-headshot.png
+image: ej-kalafarski-headshot.png
 fellow_year: 2014
 project: []
 agency: []

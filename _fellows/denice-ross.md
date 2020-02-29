@@ -1,7 +1,7 @@
 ---
 id: denice-ross
 title: Denice Ross
-image: ross-denice-headshot.png
+image: denice-ross-headshot.png
 fellow_year: 2014
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: clarice-chan
 title: Clarice Chan
-image: chan-clarice-headshot.jpg
+image: clarice-chan-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

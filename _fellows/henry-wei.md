@@ -1,7 +1,7 @@
 ---
 id: henry-wei
 title: Henry Wei, MD
-image: wei-henry-headshot.png
+image: henry-wei-headshot.png
 fellow_year: 2012
 project: []
 agency: []

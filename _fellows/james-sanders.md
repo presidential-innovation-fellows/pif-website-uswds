@@ -1,7 +1,7 @@
 ---
 id: james-sanders
 title: James Sanders
-image: sanders-james-headshot.png
+image: james-sanders-headshot.png
 fellow_year: 2013
 project: []
 agency: []

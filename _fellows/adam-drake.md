@@ -1,7 +1,7 @@
 ---
 id: adam-drake
 title: Adam Drake
-image: drake-adam-headshot.jpg
+image: adam-drake-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

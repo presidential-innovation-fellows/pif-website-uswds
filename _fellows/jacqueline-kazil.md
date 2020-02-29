@@ -1,7 +1,7 @@
 ---
 id: jacqueline-kazil
 title: Jacqueline Kazil
-image: kazil-jacqueline-headshot.png
+image: jacqueline-kazil-headshot.png
 fellow_year: 2013
 project: []
 agency: []

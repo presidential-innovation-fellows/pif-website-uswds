@@ -1,7 +1,7 @@
 ---
 id: patrick-lin
 title: Patrick Lin
-image: lin-patrick-headshot.jpg
+image: patrick-lin-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

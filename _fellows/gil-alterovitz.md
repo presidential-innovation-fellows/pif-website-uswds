@@ -1,7 +1,7 @@
 ---
 id: gil-alterovitz
 title: Gil Alterovitz
-image: alterovitz-gil-headshot.jpg
+image: gil-alterovitz-headshot.jpg
 fellow_year: 2017
 project: []
 agency: []

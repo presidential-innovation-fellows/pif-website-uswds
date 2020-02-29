@@ -1,7 +1,7 @@
 ---
 id: jed-wood
 title: Jed Wood
-image: wood-jed-headshot.png
+image: jed-wood-headshot.png
 fellow_year: 2012
 project: []
 agency: []

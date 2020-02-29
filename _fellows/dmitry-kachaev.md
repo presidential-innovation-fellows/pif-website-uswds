@@ -1,7 +1,7 @@
 ---
 id: dmitry-kachaev
 title: Dmitry Kachaev
-image: kachaev-dmitry-headshot.png
+image: dmitry-kachaev-headshot.png
 fellow_year: 2012
 project: []
 agency: []

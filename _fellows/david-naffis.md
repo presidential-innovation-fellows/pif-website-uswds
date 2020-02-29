@@ -1,7 +1,7 @@
 ---
 id: david-naffis
 title: David Naffis
-image: naffis-david-headshot.png
+image: david-naffis-headshot.png
 fellow_year: 2014
 project: []
 agency: []

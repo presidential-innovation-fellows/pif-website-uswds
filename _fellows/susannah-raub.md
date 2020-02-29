@@ -1,7 +1,7 @@
 ---
 id: susannah-raub
 title: Susannah Raub
-image: raub-susannah-headshot.png
+image: susannah-raub-headshot.png
 fellow_year: 2014
 project: []
 agency: []

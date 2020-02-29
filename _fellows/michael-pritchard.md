@@ -1,7 +1,7 @@
 ---
 id: michael-pritchard
 title: Michael Pritchard
-image: pritchard-michael-headshot.jpg
+image: michael-pritchard-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

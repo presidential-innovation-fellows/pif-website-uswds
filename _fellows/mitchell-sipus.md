@@ -1,7 +1,7 @@
 ---
 id: mitchell-sipus
 title: Mitchell Sutika Sipus
-image: sipus-mitchell-headshot.jpg
+image: mitchell-sipus-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

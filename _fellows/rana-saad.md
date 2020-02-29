@@ -1,7 +1,7 @@
 ---
 id: rana-saad
 title: Rana Saad
-image: saad-rana-headshot.jpg
+image: rana-saad-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

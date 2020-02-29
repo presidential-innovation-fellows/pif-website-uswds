@@ -1,7 +1,7 @@
 ---
 id: stephen-wisniew
 title: Stephen Matthew Wisniew
-image: wisniew-stephen-headshot.jpg
+image: stephen-wisniew-headshot.jpg
 fellow_year: 2017
 project: []
 agency: []

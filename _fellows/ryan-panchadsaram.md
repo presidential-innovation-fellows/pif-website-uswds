@@ -1,7 +1,7 @@
 ---
 id: ryan-panchadsaram
 title: Ryan Panchadsaram
-image: panchadsaram-ryan-headshot.png
+image: ryan-panchadsaram-headshot.png
 fellow_year: 2012
 project: []
 agency: []

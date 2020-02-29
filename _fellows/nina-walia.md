@@ -1,7 +1,7 @@
 ---
 id: nina-walia
 title: Nina Walia
-image: walia-nina-headshot.jpg
+image: nina-walia-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

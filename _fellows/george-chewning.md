@@ -1,7 +1,7 @@
 ---
 id: george-chewning
 title: George Chewning
-image: chewning-george-headshot.jpg
+image: george-chewning-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

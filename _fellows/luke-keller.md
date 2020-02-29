@@ -1,7 +1,7 @@
 ---
 id: luke-keller
 title: Luke Keller
-image: keller-luke-headshot.jpg
+image: luke-keller-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

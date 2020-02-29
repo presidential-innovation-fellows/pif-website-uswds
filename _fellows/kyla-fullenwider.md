@@ -1,7 +1,7 @@
 ---
 id: kyla-fullenwider
 title: Kyla Fullenwider
-image: fullenwider-kyla-headshot.jpg
+image: kyla-fullenwider-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

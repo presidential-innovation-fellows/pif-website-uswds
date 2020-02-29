@@ -1,7 +1,7 @@
 ---
 id: robert-goldel
 title: Robert Goldel
-image: goldel-robert-headshot.jpg
+image: robert-goldel-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

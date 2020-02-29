@@ -1,7 +1,7 @@
 ---
 id: amy-wilson
 title: Amy Wilson
-image: wilson-amy-headshot.jpg
+image: amy-wilson-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []

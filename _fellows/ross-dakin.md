@@ -1,7 +1,7 @@
 ---
 id: ross-dakin
 title: Ross Dakin
-image: dakin-ross-headshot.jpg
+image: ross-dakin-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

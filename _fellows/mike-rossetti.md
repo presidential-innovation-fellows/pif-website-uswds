@@ -1,7 +1,7 @@
 ---
 id: mike-rossetti
 title: Mike Rossetti
-image: rossetti-mike-headshot.jpg
+image: mike-rossetti-headshot.jpg
 fellow_year: 2017
 project: []
 agency: []

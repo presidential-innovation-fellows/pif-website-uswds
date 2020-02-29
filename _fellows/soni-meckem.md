@@ -1,7 +1,7 @@
 ---
 id: soni-meckem
 title: Soni Meckem
-image: meckem-soni-headshot.jpg
+image: soni-meckem-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

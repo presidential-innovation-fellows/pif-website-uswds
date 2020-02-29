@@ -1,7 +1,7 @@
 ---
 id: joshua-patterson
 title: Joshua Patterson
-image: patterson-joshua-headshot.jpg
+image: joshua-patterson-headshot.jpg
 fellow_year: 2015
 project: []
 agency: []

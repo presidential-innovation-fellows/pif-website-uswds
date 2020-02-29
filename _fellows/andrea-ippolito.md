@@ -1,7 +1,7 @@
 ---
 id: andrea-ippolito
 title: Andrea Ippolito
-image: ippolito-andrea-headshot.png
+image: andrea-ippolito-headshot.png
 fellow_year: 2014
 project: []
 agency: []

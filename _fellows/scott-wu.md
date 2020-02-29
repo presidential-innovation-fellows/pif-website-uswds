@@ -1,7 +1,7 @@
 ---
 id: scott-wu
 title: Scott Wu
-image: wu-scott-headshot.png
+image: scott-wu-headshot.png
 fellow_year: 2013
 project: []
 agency: []

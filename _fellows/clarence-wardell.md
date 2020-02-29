@@ -1,7 +1,7 @@
 ---
 id: clarence-wardell
 title: Dr. Clarence Wardell III
-image: wardell-clarence-headshot.png
+image: clarence-wardell-headshot.png
 fellow_year: 2014
 project: []
 agency: []

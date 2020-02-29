@@ -1,7 +1,7 @@
 ---
 id: sarayu-srinivasan
 title: Sarayu Srinivasan
-image: srinivasan-sarayu-headshot.jpg
+image: sarayu-srinivasan-headshot.jpg
 fellow_year: 2019
 project: []
 agency: []

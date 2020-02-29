@@ -1,7 +1,7 @@
 ---
 id: sarah-allen
 title: Sarah Allen
-image: allen-sarah-headshot.png
+image: sarah-allen-headshot.png
 fellow_year: 2013
 project: []
 agency: []

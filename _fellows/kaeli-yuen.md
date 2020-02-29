@@ -1,7 +1,7 @@
 ---
 id: kaeli-yuen
 title: Kaeli Yuen
-image: yuen-kaeli-headshot.jpg
+image: kaeli-yuen-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

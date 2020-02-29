@@ -1,7 +1,7 @@
 ---
 id: mollie-ruskin
 title: Mollie Ruskin
-image: ruskin-mollie-headshot.png
+image: mollie-ruskin-headshot.png
 fellow_year: 2013
 project: []
 agency: []

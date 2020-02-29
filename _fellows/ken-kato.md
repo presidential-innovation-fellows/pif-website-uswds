@@ -1,7 +1,7 @@
 ---
 id: ken-kato
 title: Ken Kato
-image: kato-ken-headshot.jpg
+image: ken-kato-headshot.jpg
 fellow_year: 2020
 project: []
 agency: []

@@ -1,7 +1,7 @@
 ---
 id: adam-bellow
 title: Adam Bellow
-image: bellow-adam-headshot.jpg
+image: adam-bellow-headshot.jpg
 fellow_year: 2016
 project: []
 agency: []
