@@ -5,29 +5,29 @@
 - name: GSA
   fullname: General Services Administration
   url: https://gsa.gov
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+  description: The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks.
 
 - name: USDA
   fullname: Department of Agriculture
-  url: http://usda.gov/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+  url: https://usda.gov
+  description: The United States Department of Agriculture (USDA), also known as the Agriculture Department, is the U.S. federal executive department responsible for developing and executing federal laws related to farming, forestry, rural economic development, and food.
 
 - name: Navy
   fullname: Department of the Navy
   url: https://navy.mil
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+  description: The United States Department of the Navy was established to provide a government organizational structure to the United States Navy, the United States Marine Corps (from 1834 onward) and, when directed by the President (or Congress during time of war), the United States Coast Guard, as a service within the Department of the Navy, though each remain independent service branches.
 
 - name: NIH
   fullname: National Institutes of Health
-  url: nih.gov
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+  url: https://nih.gov
+  description: NIH is one of the world's foremost medical research centers. An agency of the U.S. Department of Health and Human Services, the NIH is the Federal focal point for health and medical research.
 
 - name: FBI
   fullname: Federal Bureau of Investigation
   url: https://fbi.gov
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+  description: The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States and its principal federal law enforcement agency.
 
 - name: DIU
   fullname: Defense Innovation Unit
-  url: https://www.diu.mil/
+  url: https://www.diu.mil
   description: Defense Innovation Unit is a fast-moving Department of Defense organization that contracts with commercial companies to solve national security problems.
