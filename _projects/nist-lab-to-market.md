@@ -9,7 +9,7 @@ cover_art: ""
 subtitle: "How might we help the Department of Commerce create jobs and economic impact by leveraging our federal investments in research and development?"
 partner_description: "Working with industry and science to advance innovation and improve quality of life."
 project_link: https://www.nist.gov
-status: "previous"
+status: "past"
 ---
 The Technology Partnerships Office (TPO) at NIST performs a critical role in coordinating interagency activities as part of the Lab to Market Cross Agency Priority (CAP) goal. The Lab to Market CAP goal is to improve the transfer of technology from federally funded research and development (R&D) to the private sector to promote U.S. economic growth and national security. TPO enables technology transfer to promote US competitiveness both for NIST and across the Federal government for the Department of Commerce.
 

@@ -9,7 +9,7 @@ cover_art: ""
 subtitle: "How might we help the U.S. Agency for Global Media better counter global disinformation and become more data-driven?"
 partner_description: "USAGM networks bring news and information to people around the world in 58 languages."
 project_link: https://www.usagm.gov/networks/
-status: "previous"
+status: "past"
 ---
 USAGM – an independent agency of the U.S. Government composed of Voice of America, Radio Free Europe/Radio Liberty, Office of Cuba Broadcasting, Radio Free Asia, and Middle East Broadcasting Networks - is looking to further advance its strategic focus on US national security issues and innovate on its overall mission (general news focus and empowering accurate local reporting, etc.). USAGM is at the frontlines of the U.S. government in technology, media, and foreign policy.
 
