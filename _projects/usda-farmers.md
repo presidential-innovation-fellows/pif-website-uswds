@@ -5,7 +5,7 @@ agency_abbrev: "USDA"
 agency_logo: "USDA.png"
 title: "U.S. Department of Agriculture's Farmers.gov"
 summary: "Helping the U.S. Department of Agriculture re-imagine how it engages with its customers: America’s farmers, ranchers, conservationists, and private foresters"
-cover_art: "all-of-us-participants.jpg"
+cover_art: ""
 subtitle: "How might the U.S. Department of Agriculture deliver a better experience for America's farmers?"
 partner_description: "The U.S. Department of Agriculture provides leadership on food, agriculture, natural resources, rural development, nutrition, and related issues based on public policy, the best available science, and effective management."
 project_link: https://newfarmers.usda.gov
