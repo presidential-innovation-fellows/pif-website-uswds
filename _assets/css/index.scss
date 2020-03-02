@@ -64,10 +64,6 @@
   padding: units(2);
 }
 
-.breadcrumb a:visited {
-
-}
-
 @media screen and (max-width: 64em) {
   .usa-logo__text {
     width: 10em;
@@ -118,17 +114,19 @@
 }
 
 .partner-card {
-  @include u-margin(1);
-  @include u-padding-y(4);
-  @include u-border(1px);
-  @include u-border('base-light');
+  @include u-margin-y(2);
+  
+  div {
+    @include u-padding(3);
+    @include u-border(1px);
+    @include u-border('base-light');
+    @include clearfix;
 
-  h5 {
-    @include u-margin-y(1);
   }
 
   a {
     @include u-color('ink');
+    @include u-font-size('sans', 'xs');
   }
 
   img {
@@ -141,4 +139,33 @@
 
 ul.project-fellows li {
   list-style: none;
+  @include clearfix;
+  @include u-margin-bottom(2);
+}
+
+.project-item {
+  @include u-padding-bottom(5);
+  @include u-margin-top(4);
+  @include u-border-bottom('2px');
+  @include u-border-bottom('base-light');
+  @include at-media(tablet) {
+    @include grid-col(6);
+  }
+  @include clearfix;
+
+  h3 {
+    @include u-margin-top(0);
+  }
+
+  img {
+    @include at-media(tablet) {
+      @include u-float('left');
+    }
+    @include u-margin-right(3);
+    @include u-margin-top(1);
+    @include u-circle(10);
+  }
+  p {
+    font-size: 14px;
+  }
 }
