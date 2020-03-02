@@ -169,3 +169,13 @@ ul.project-fellows li {
     font-size: 14px;
   }
 }
+
+.case-study-inner {
+  @include u-border('base-light');
+  @include u-border('1px');
+
+  div {
+    @include u-padding-x(2);
+    @include u-padding-bottom(2);
+  }
+}
