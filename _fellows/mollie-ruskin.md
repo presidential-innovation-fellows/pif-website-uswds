@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Portland, OR
 region: west
-bio_short: Designer of many stripes: visual, user experience, service design, HCD. Previously of non-profit/campaigns. Currently at US Digital Service.
+bio_short: "Designer of many stripes: visual, user experience, service design, HCD. Previously of non-profit/campaigns. Currently at US Digital Service."
 tags: ['west', '2013']
 skills: ['communications', 'design', 'user experience']
 ---

@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Arlington, VA
 region: south
-bio_short: @amida_tech co-founder | ex-Presidential Innovation Fellow | Hacking: open data/healthIT/arduino; Fun: climbing/longboarding
+bio_short: "@amida_tech co-founder | ex-Presidential Innovation Fellow | Hacking: open data/healthIT/arduino; Fun: climbing/longboarding"
 tags: ['south', '2012']
 skills: ['frontend development', 'data', 'product', 'backend development']
 ---
