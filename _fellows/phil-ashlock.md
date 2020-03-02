@@ -3,7 +3,7 @@ id: phil-ashlock
 title: Phil Ashlock
 image: phil-ashlock-headshot.png
 fellow_year: 2012
-project: []
+project: ["nih-all-of-us"]
 agency: []
 hometown: Anacortes, WA
 region: west

@@ -3,7 +3,7 @@ id: irtaza-barlas
 title: Irtaza Barlas
 image: irtaza-barlas-headshot.jpg
 fellow_year: 2020
-project: []
+project: ["nih-all-of-us"]
 agency: []
 hometown: Johns Creek, GA
 region: south

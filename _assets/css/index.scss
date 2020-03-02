@@ -139,6 +139,8 @@
 
 ul.project-fellows li {
   list-style: none;
+  @include clearfix;
+  @include u-margin-bottom(2);
 }
 
 .project-item {
