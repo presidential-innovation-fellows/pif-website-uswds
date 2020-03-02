@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Burlington, NJ
 region: northeast
-bio_short: Founder + executive producer TEDxIntuit. Current: 18F. Past: TurboTax, Oscars, Super Bowl. 2nd grade report card: Kara likes to talk. A lot.
+bio_short: "Founder + executive producer TEDxIntuit. Current: 18F. Past: TurboTax, Oscars, Super Bowl. 2nd grade report card: Kara likes to talk. A lot."
 tags: ['northeast', '2012']
 skills: ['communications', 'user experience', 'digital']
 ---

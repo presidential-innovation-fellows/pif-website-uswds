@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Washington, DC
 region: south
-bio_short: Recent: Head of @login.gov, Co-founder @Isabel.io, Board @equalit.ie, Advisor @massivesci, Builder @Bionicsolution. Past: Led innovation in 5+ Fortune 500, JD from UC Berkeley, MBA from Oxford.
+bio_short: "Recent: Head of @login.gov, Co-founder @Isabel.io, Board @equalit.ie, Advisor @massivesci, Builder @Bionicsolution. Past: Led innovation in 5+ Fortune 500, JD from UC Berkeley, MBA from Oxford."
 tags: ['south', '2017']
 skills: ['business development', 'communications', 'design', 'digital', 'policy', 'product']
 ---

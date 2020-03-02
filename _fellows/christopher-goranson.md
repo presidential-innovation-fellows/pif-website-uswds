@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: Colorado
 region: west
-bio_short: @ Interior. Prev. Director of PIIIM, The New School, Lecturer at Mt. Sinai School of Medicine, Director of GIS Center at NYC Dept Health.
+bio_short: "@ Interior. Prev. Director of PIIIM, The New School, Lecturer at Mt. Sinai School of Medicine, Director of GIS Center at NYC Dept Health."
 tags: ['west', '2014']
 skills: ['policy', 'frontend development', 'data', 'product', 'user experience', 'business development', 'design']
 ---

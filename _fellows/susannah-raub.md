@@ -7,7 +7,7 @@ project: []
 agency: []
 hometown: San Francisco, CA
 region: west
-bio_short: Software engineer at Google (10 years: Mountain View, New York, and Sydney); visiting faculty at MEST (Ghana); CS at Brown; Bay Area native.
+bio_short: "Software engineer at Google (10 years in Mountain View, New York, and Sydney), visiting faculty at MEST (Ghana), CS at Brown, Bay Area native."
 tags: ['west', '2014']
 skills: ['frontend development', 'backend development']
 ---
