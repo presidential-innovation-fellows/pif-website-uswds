@@ -9,7 +9,7 @@ cover_art: "michael-brown-headshot.jpg"
 subtitle: "The U.S. government did not have a holistic view of how fast China's technology transfer is occurring or the multiple methods China uses for that transfer, the level of Chinese investment in U.S. technology, or a consolidated view of what technologies we should be protecting."
 partner_description: "DIU's mission is to accelerate commercial technology for national security. They are a fast-moving government entity that provides recurring revenue to companies to solve national security problems."
 project_link: https://www.diu.mil
-status: ["previous", "case_study"]
+status: ["past", "case_study"]
 ---
 In 2017, Presidential Innovation Fellow Michael Brown <a href='https://admin.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_(1).pdf'>co-authored a report</a> exploring China’s participation in U.S. venture deals to assess: how large the overall investment was, whether it was growing and what technologies were the focus of investment. In the process he found Chinese participation in venture-backed startups at a record level of 10-16 of all venture deals (2015-2017) and that investment had grown rapidly in the past seven years.
 

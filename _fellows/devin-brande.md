@@ -1,15 +1,17 @@
 ---
 id: devin-brande
 title: Devin Brande
-image: brande-devin-headshot.jpg
+image: devin-brande-headshot.jpg
 fellow_year: 2020
-project: ["navy-dwo"]
-agency: ["Navy"]
-hometown: "Washington, DC"
+project: []
+agency: []
+hometown: Washington, DC
 region: south
-bio_short: "Technologist and innovator aspiring to help develop and deliver the next generation of solutions to everyday users. Experienced at the intersection of venture-backed innovation and the U.S. Government."
-tags: [south, 2020]
+bio_short: Technologist and innovator aspiring to help develop and deliver the next generation of solutions to everyday users. Experienced at the intersection of venture-backed innovation and the U.S. Government.
+tags: ['south', '2020']
+skills: []
 ---
+
 Devin is a technologist and innovator working to bring the state of the art to users who face new and difficult challenges every day.
 
 Most recently as Director of Product Management for Orbital Insight, Devin led product management for the Orbital Insight global public sector business, encompassing a suite of cutting edge products focused on data processing and labeling for advanced applications of computer vision, computer vision algorithm development, and large-scale geospatial analytics in both cloud-hosted and on-premise compute environments, providing integrated, end-to-end capabilities.
