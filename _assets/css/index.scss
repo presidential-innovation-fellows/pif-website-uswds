@@ -7,6 +7,8 @@
 // Import theme custom styles
 @import "uswds-theme-custom-styles";
 
+@import "usa_anchor.scss";
+
 // default mode hide banner
 .usa-banner__content {
   display: hidden;
