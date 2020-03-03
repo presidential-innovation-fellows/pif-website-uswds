@@ -19,17 +19,25 @@ permalink: /projects/
       <div class="grid-container">
         <div class="grid-row">
         {% for project in site.projects %}
-        {% if 'case-study'== project.status %}
-          <div class="tablet:grid-col-3">
-              {% if project.agency_logo %}
-              {% asset "{{ project.agency_logo }}" class="square-cards" alt="{{ project.image_alt_text }}" %}
+        {% if project.status contains 'case_study' %}
+          <div class="tablet:grid-col-4">
+            <div class="case-study-inner">
+              {% if project.cover_art %}
+              {% asset "{{ project.cover_art }}" class="square-cards" alt="{{ project.image_alt_text }}" %}
               {% endif %}
-              <div class="width-2/3">
+              <div>
+                <span class="text-uppercase text-bold margin-top-3">{{ project.agency }}</span>
                 <h3 class="title">
-                    <a class="usa-link text-no-underline" href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a>
-                  </h3>
-                    <span class="text-bold">{{ project.agency }}</span>
+                  <a class="usa-link text-no-underline" href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a>
+                </h3>
+                
+                {{ project.summary }}
+                  
+                <p><a class="usa-link text-no-underline" href="{{ site.baseurl }}{{ project.url }}">Read More ></a></p>
+              </div>
             </div>
+
+
           </div>
         {% endif %}
       {% endfor %}
@@ -37,7 +45,7 @@ permalink: /projects/
     </div>
 
       <h2>Previous projects</h2>
-      {% include projects-column.html project_filter="previous" %}
+      {% include projects-column.html project_filter="past" %}
     </div>
   </div>
   <div class="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">
