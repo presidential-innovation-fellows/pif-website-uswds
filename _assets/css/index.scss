@@ -180,4 +180,24 @@ ul.project-fellows li {
     @include u-padding-x(2);
     @include u-padding-bottom(2);
   }
+
+  .overlay span {
+		@include u-margin(0);
+		@include u-position('absolute');
+		@include u-width('full');
+		@include u-height('full');
+		@include u-top(0);
+		@include u-left(0);
+		cursor: pointer;
+    z-index: 1;
+  }
+
+  &:hover{
+		h3 a{
+			@include u-border-bottom('2px', 'primary', 'solid');
+		}
+
+
+	}
+
 }
