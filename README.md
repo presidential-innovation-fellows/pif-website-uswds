@@ -71,6 +71,7 @@ searchgov:
 ```
 
 
+
 ## How to edit
 - Non-developers should focus on editing markdown content in the `_posts` and `_pages` folder
 
@@ -92,7 +93,8 @@ searchgov:
 
 - `search/index.html` is used by search.gov.
 
-
+### usa anchor
+This repo adapts the digital.gov USA anchor, which can be found in `_layout/anchor.html`. The data to populate this file is found in the `_data/usa_anchor.yaml`.
 
 
 ## Installation
