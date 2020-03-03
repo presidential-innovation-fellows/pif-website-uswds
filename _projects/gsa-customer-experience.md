@@ -11,6 +11,7 @@ partner_description: "The General Services Administration (GSA) is an independen
 project_link: https://www.gsa.gov
 status: "past"
 ---
+
 Whether seeking a loan, Social Security benefits, Veterans benefits, or other services provided by the Federal Government, individuals and businesses expect Government services to be efficient and intuitive, just like they experience in interactions with leading private-sector organizations. Yet the 2016 American Consumer Satisfaction Index and the 2017 Forrester Federal Customer Experience Index show that, on average, Federal Government services are ranked last, and lag nine percentage points behind the national average of all industries.  Many federal services fail to meet not just the expectations of the public, but also the policy objective they were created for, creating unnecessary hassle and cost for citizens and businesses and undermining mission effectiveness.
 
 Private sector companies have faced similar challenges, but have demonstrated that adopting a proven set of customer-focused practices can not only increase satisfaction and lead to product innovation, but also reduce cost. Companies have shown a shift towards focusing on customer experience reduced their customer care costs by as much as 33%.

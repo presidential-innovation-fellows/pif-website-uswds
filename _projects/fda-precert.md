@@ -11,6 +11,7 @@ partner_description: "The FDA's Digital Health Software Pre-Certification (Pre-C
 project_link: https://www.fda.gov/medical-devices/digital-health/digital-health-software-precertification-pre-cert-program
 status: "past"
 ---
+
 Digital health tools have vast potential improve our ability to accurately diagnose and treat disease. And to enhance the delivery of health care for the individual, making medical care truly patient centric -- empowering the individual.
 
 The FDA is actively taking steps to ensure that public reaps the benefits from this change. The FDA is expanding its novel model for the pre-market review of digital health tools as medical devices, through our new software manufacture Pre-Certification (Pre-Cert) program, which implements a new approach to the review of software-as-a medical device (e.g., SaMDs including artificial intelligence and machine learning algorithms).
