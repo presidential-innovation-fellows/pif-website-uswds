@@ -11,6 +11,7 @@ partner_description: "The U.S. Department of Transportation ensures that our nat
 project_link: https://www.transportation.gov
 status: "current"
 ---
+
 The Department of Transportation is looking for a Presidential Innovation Fellow to provide technical and business expertise as well as thought leadership on how the DOT can address potential market failures in its intelligent transportation portfolio. This could include innovative approaches to incentivize development of automated solutions to address transportation needs of underserved populations such as travelers with disabilities.
 
-description_more: "<p>The Fellow will also assist the DOT in development of longer-term strategic plans for research that positions the Department to better integrate emerging technologies and practices in the future. The Fellow will work toward deploying high-quality, user-centric platforms and services to lead major initiatives, consult on systems and policy proposals, and provide technical, policy, and programmatic guidance to DOT and the government.
+description_more: "The Fellow will also assist the DOT in development of longer-term strategic plans for research that positions the Department to better integrate emerging technologies and practices in the future. The Fellow will work toward deploying high-quality, user-centric platforms and services to lead major initiatives, consult on systems and policy proposals, and provide technical, policy, and programmatic guidance to DOT and the government.
