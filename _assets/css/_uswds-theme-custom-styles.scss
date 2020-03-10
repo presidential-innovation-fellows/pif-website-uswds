@@ -94,7 +94,10 @@ i.e.
   color: white;
 }
 
-.usa-header--basic .usa-nav-container {
+
+
+.usa-header--extended .usa-nav__inner,
+ .usa-header--extended .usa-navbar {
   @include at-media('desktop') {
     width: 100%;
     max-width: unset;
@@ -107,3 +110,13 @@ i.e.
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
+
+
+.usa-nav__secondary .usa-search {
+  @include at-media('desktop'){
+    width: 65%;
+    float: left;
+  }
+}
+
+
