@@ -10,7 +10,7 @@ where we provide an easy way to manage your navigation system
     <button class="usa-menu-btn">Menu</button>
   </div>
   <nav role="navigation" aria-label="Primary navigation" class="usa-nav usa-nav site-nav">
-      
+
       <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in include.primary_navigation %}
@@ -38,7 +38,6 @@ where we provide an easy way to manage your navigation system
         {% endunless %}
         {% endfor %}
       </ul>
-        {% include searchgov/form.html searchgov=site.searchgov %}
   </nav>
   </div>
 </header>

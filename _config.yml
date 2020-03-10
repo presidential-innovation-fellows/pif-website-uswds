@@ -39,7 +39,7 @@ primary_navigation:
   - name: Home
     url: /
   - name: Who We Are
-    url: /mission/
+    url: /about/
   - name: Fellows
     url: /fellows/
   - name: Projects
