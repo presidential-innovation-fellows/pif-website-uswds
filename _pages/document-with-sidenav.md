@@ -2,6 +2,7 @@
 title: Document with Sidenav
 layout: page
 sidenav: true
+sitemap: false
 ---
 
 # Section heading (h1)
