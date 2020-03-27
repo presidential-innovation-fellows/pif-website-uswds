@@ -10,6 +10,7 @@ subtitle: "Make the Smithsonian Institution's digitization of 137 million+ artif
 partner_description: "The Smithsonian Institution is the world's largest museum and research complex, with 19 museums, 9 research centers, and affiliates around the world."
 project_link: https://transcription.si.edu
 status: ["past", "case_study"]
+order: 5
 impact_metrics:
   - { metric: "1,400+", desc: "volunteers contributing." }
   - { metric: "18,000+", desc: "transcriptions." }
@@ -21,4 +22,4 @@ articles:
 
 In just six months, a team of Fellows developed and launched an end-to-end solution for creating digital records for historic files. Through crowdsourcing transcriptions, the project has engaged thousands of volunteers who have helped to transcribe and review historic and scientific records, making them easily accessible to the public for the first time.
 
-![The homepage of the Smithsonian Transcription Center](smithsonian-digitizing-the-herbarium/smithsonian-screenshot.jpg "The homepage of the Smithsonian Transcription Center")
+{% asset "smithsonian-screenshot.jpg" class="float-right" title="The homepage of the Smithsonian Transcription Center" alt="The homepage of the Smithsonian Transcription Center" %}
