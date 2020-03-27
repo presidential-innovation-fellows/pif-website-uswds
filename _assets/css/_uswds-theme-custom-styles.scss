@@ -20,15 +20,15 @@ i.e.
 ----------------------------------------
 */
 
-h1, h2, h3, h4, h5, h6, [class*='font-heading-'],
-.usa-hero__heading, .usa-graphic-list__heading,
-.usa-footer--big .usa-footer__primary-link,
-.usa-intro,
-.usa-prose > h1,
-.usa-prose > h2
-{
-  @include u-font-family('sans');
-}
+// h1, h2, h3, h4, h5, h6, [class*='font-heading-'],
+// .usa-hero__heading, .usa-graphic-list__heading,
+// .usa-footer--big .usa-footer__primary-link,
+// .usa-intro,
+// .usa-prose > h1,
+// .usa-prose > h2
+// {
+//   @include u-font-family('sans');
+// }
 .usa-intro {
   margin: 0;
 }
