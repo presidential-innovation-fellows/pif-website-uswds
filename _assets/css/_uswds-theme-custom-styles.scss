@@ -25,7 +25,8 @@ h1, h2, h3, h4, h5, h6, [class*='font-heading-'],
 .usa-footer--big .usa-footer__primary-link,
 .usa-intro,
 .usa-prose > h1,
-.usa-prose > h2
+.usa-prose > h2,
+.usa-prose > h3
 {
   @include u-font-family('sans');
 }
