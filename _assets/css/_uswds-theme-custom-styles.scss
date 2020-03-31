@@ -20,25 +20,32 @@ USWDS - PIF THEME STYLES
 
 
 // Buttons
-.usa-button--outline {
-  box-shadow: $button-stroke color("primary");
-  color: color("primary");
-  &:hover,
-  &.usa-button--hover {
-    box-shadow: $button-stroke color("primary-vivid");
-    color: color("primary-vivid");
-  }
-  &:active,
-  &.usa-button--active {
-    box-shadow: $button-stroke color("primary-vivid");
-    color: color("primary-vivid");
+.usa-button {
+  &:hover, &.usa-button--hover {
+    @include at-media('desktop') {
+      @include u-bg('primary-vivid');
+    }
+    &.usa-button--outline {
+      box-shadow: $button-stroke color("primary");
+      color: color("primary");
+      background-color: color("transparent");
+      &:hover,
+      &.usa-button--hover {
+        box-shadow: $button-stroke color("primary-vivid");
+        color: color("primary-vivid");
+      }
+      &:active,
+      &.usa-button--active {
+        box-shadow: $button-stroke color("primary-vivid");
+        color: color("primary-vivid");
+      }
+      &.usa-button--inverse:hover {
+        background-color: color("transparent");
+      }
+    }
   }
 }
-.usa-button:hover, .usa-button.usa-button--hover {
-  @include at-media('desktop') {
-    @include u-bg('primary-vivid');
-  }
-}
+
 
 // Navigation
 .usa-navbar {
