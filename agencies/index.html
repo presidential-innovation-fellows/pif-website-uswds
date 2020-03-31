@@ -10,7 +10,7 @@ permalink: /agencies/
   </div>
 </div>
 
-<div class="grid-container usa-section">
+<section class="grid-container usa-section">
   <div class="grid-row">
     <div class="usa-layout-docs__main desktop:grid-col-12 usa-prose usa-layout-docs">
       <h2>How We Work</h2>
@@ -20,21 +20,22 @@ permalink: /agencies/
       <a class="usa-button" href="https://proposal.pif.gov">Submit a project</a>
     </div>
   </div>
-  <div class="grid-row usa-section">
+</section>
+<section class="grid-container usa-section usa-prose">
+  <div class="grid-row">
     <div class="usa-layout-docs__main desktop:grid-col-12 usa-prose usa-layout-docs">
       <h2>Agencies We've Worked With</h2>
       <div class="grid-container">
-      <div class="grid-row grid-gap">
-        {% for agency in site.data.agencies %}
-        <div class="tablet:grid-col-4 mobile:grid-col-2 partner-card">
-          <div>
-            {% asset "{{ agency.name }}.png" alt="{{ agency.name }} logo"  %}
-            <a href="{{ agency.url }}" class="usa-link usa-link--external">{{ agency.fullname }}</a>
+        <div class="grid-row grid-gap">
+          {% for agency in site.data.agencies %}
+          <div class="tablet:grid-col-4 mobile:grid-col-2 partner-card">
+            <div>
+              {% asset "{{ agency.name }}.png" alt="{{ agency.name }} logo"  %}
+              <a href="{{ agency.url }}" class="usa-link usa-link--external">{{ agency.fullname }}</a>
+            </div>
           </div>
-          </div>
-        {% endfor %}
-      </div>
-
+          {% endfor %}
+        </div>
       </div>
 
     </div>
@@ -42,4 +43,4 @@ permalink: /agencies/
   <!-- <div class="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">
     <a class="usa-link" href="#blog">Return to top</a>
   </div> -->
-</div>
+</section>

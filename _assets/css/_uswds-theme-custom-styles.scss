@@ -234,11 +234,13 @@ USWDS - PIF THEME STYLES
 //  .usa-footer__return-to-top a, .usa-footer__return-to-top a:hover, .usa-footer__return-to-top a:visited {
 //
 // }
-
+//
+// .usa-section {
+//   @include u-padding-y(4);
+// }
 .usa-prose > a.usa-button {
   color: white;
 }
-
 
 .usa-logo {
   a {
@@ -253,7 +255,6 @@ USWDS - PIF THEME STYLES
   width: 10em;
 }
 
-
 .usa-header--basic .usa-nav-container {
   @include at-media('desktop') {
     width: 100%;
@@ -264,7 +265,6 @@ USWDS - PIF THEME STYLES
 .usa-header + .usa-section, .usa-header + main {
   border: none;
 }
-
 .usa-menu-btn {
   background: none;
 }
