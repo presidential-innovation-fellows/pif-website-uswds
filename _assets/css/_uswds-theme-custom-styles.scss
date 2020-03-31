@@ -21,22 +21,22 @@ USWDS - PIF THEME STYLES
 
 // Buttons
 .usa-button--outline {
-  box-shadow: $button-stroke color("secondary");
-  color: color("secondary");
+  box-shadow: $button-stroke color("primary");
+  color: color("primary");
   &:hover,
   &.usa-button--hover {
-    box-shadow: $button-stroke color("secondary-vivid");
-    color: color("secondary-vivid");
+    box-shadow: $button-stroke color("primary-vivid");
+    color: color("primary-vivid");
   }
   &:active,
   &.usa-button--active {
-    box-shadow: $button-stroke color("secondary-vivid");
-    color: color("secondary-vivid");
+    box-shadow: $button-stroke color("primary-vivid");
+    color: color("primary-vivid");
   }
 }
-.usa-button--secondary:hover, .usa-button--secondary.usa-button--hover {
+.usa-button:hover, .usa-button.usa-button--hover {
   @include at-media('desktop') {
-    @include u-bg('secondary-vivid');
+    @include u-bg('primary-vivid');
   }
 }
 
@@ -149,7 +149,7 @@ USWDS - PIF THEME STYLES
   .usa-hero__heading--alt, .usa-hero__heading{
     color: #fff;
     text-shadow: 1px 1px 2px #333;
-    @include u-font-size('body', 'xl')
+    @include u-font('heading', 'xl')
   }
 }
 
@@ -166,8 +166,11 @@ USWDS - PIF THEME STYLES
   vertical-align: middle;
 }
 
-.usa-section--dark h3 a {
-  @include u-text('secondary');
+.usa-graphic-list {
+  @include u-bg('secondary-darker');
+  h3 a {
+    @include u-text('primary');
+  }
 }
 
 .usa-social-link {
@@ -180,15 +183,31 @@ USWDS - PIF THEME STYLES
   background-repeat: no-repeat;
 }
 
+
 .usa-header + main {
   @include u-border(1px, "base-darkest");
  }
 
-.usa-footer__secondary-section {
-  @include u-bg('secondary');
-  a, a:hover, a:visited {
-    @include u-text('white');
-    text-decoration: none;
+.usa-footer {
+  .usa-footer__secondary-section {
+    @include u-bg('primary');
+    a, a:hover, a:visited {
+      @include u-text('white');
+      text-decoration: none;
+    }
+    h3 {
+      @include u-font('heading', 'xl');
+      color: color("white");
+    }
+    .usa-button {
+      @include u-font('body', 'lg')
+    }
+    .grid-container {
+      @include at-media('desktop') {
+        text-align: center;
+        @include u-padding-x(8);
+      }
+    }
   }
 }
 //  .usa-footer__return-to-top a, .usa-footer__return-to-top a:hover, .usa-footer__return-to-top a:visited {
@@ -241,6 +260,7 @@ USWDS - PIF THEME STYLES
   }
 }
 .site-header {
+  @include u-bg('secondary-darker');
   @include at-media('desktop') {
     padding: units('105');
     width: 100%;
