@@ -41,6 +41,8 @@ USWDS - PIF THEME STYLES
       }
       &.usa-button--inverse:hover {
         background-color: color("transparent");
+        color: #fff;
+        box-shadow: $button-stroke #fff;
       }
     }
   }
@@ -74,7 +76,7 @@ USWDS - PIF THEME STYLES
     bottom: 0;
   }
 }
-.usa-nav__primary-item:last-child .usa-nav__link:hover::after  {
+.usa-nav__primary-item:last-child .usa-nav__link:hover::after, .usa-nav__primary-item .usa-button.usa-current::after  {
   @include at-media('desktop') {
     display: none;
   }
@@ -139,18 +141,24 @@ USWDS - PIF THEME STYLES
   @include u-width('card');
   margin: units(2) 0;
 }
+
+
+// Banner heroes for individual pages
 .usa-hero {
-  // background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0, 0.45)), to(rgba(0,0,0, 0.55))), url(asset_path('hero-pif.jpg'));
-  background-image: url(asset_path('hero-pif.jpg'));
   background-position: 50% 0;
+  background-image: url(asset_path('hero-pif.jpg'));
+  min-height: 360px;
   .usa-hero__callout {
-    // background-color: #fff;
-    // color: #333;
-    background: none;
     color: #fff;
+    max-width: none;
+    background: none;
     @include u-margin-top(15);
     .usa-button {
       @include u-font-size('body', 'lg')
+    }
+    @include at-media('desktop') {
+      max-width: 80%;
+      @include u-padding-x(0);
     }
   }
   .usa-hero__heading--alt, .usa-hero__heading{
@@ -159,7 +167,18 @@ USWDS - PIF THEME STYLES
     @include u-font('heading', 'xl')
   }
 }
-
+.home .usa-hero {
+  background-image: url(asset_path('hero-pif.jpg'));
+}
+.about .usa-hero {
+  background-image: url(asset_path('banner-about.jpg'));
+}
+.fellows .usa-hero {
+  background-image: url(asset_path('banner-homecoming-eeob.jpg'));
+}
+.agencies .usa-hero {
+  background-image: url(asset_path('banner-agecies.jpg'));
+}
 
 .img-circle {
   border-radius: 50%;
@@ -189,11 +208,6 @@ USWDS - PIF THEME STYLES
   background-image: url(asset_path("linkedin.svg")), linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
 }
-
-
-.usa-header + main {
-  @include u-border(1px, "base-darkest");
- }
 
 .usa-footer {
   .usa-footer__secondary-section {
@@ -247,18 +261,15 @@ USWDS - PIF THEME STYLES
     align-items: flex-start;
   }
 }
-
+.usa-header + .usa-section, .usa-header + main {
+  border: none;
+}
 
 .usa-menu-btn {
   background: none;
 }
 
-.usa-hero__callout {
-  max-width: none;
-  @include at-media('desktop') {
-    max-width: 90%;
-  }
-}
+
 
 .site-navbar__logo {
   @include at-media('desktop') {
@@ -326,7 +337,11 @@ ul.project-fellows li {
   @include clearfix;
   @include u-margin-bottom(2);
 }
-
+.page-banner {
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+}
 .project-item {
   @include u-padding-bottom(5);
   @include u-margin-top(4);

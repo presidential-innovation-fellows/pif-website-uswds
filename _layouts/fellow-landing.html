@@ -6,9 +6,14 @@ layout: default
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
 
-{% include banner.html %}
+<div class="usa-hero">
+  <div class="grid-container">
+    <div class="usa-hero__callout">
+    </div>
+  </div>
+</div>
 
-<div class="usa-layout-docs usa-section">
+<section class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       {% include sidenav.html fellows_landing=true %}
@@ -22,4 +27,4 @@ This template is for a single page that does not have a date associated with it.
       </div>
     </div>
   </div>
-</div>
+</section>

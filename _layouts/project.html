@@ -9,13 +9,12 @@ layout: default
         <div class="clearfix">
           <h4 class="text-uppercase text-secondary-dark float-left margin-0 desktop:grid-col-8">{{ page.agency }}</h4>
           {% if page.project_link %}
-          <a href="{{ page.project_link }}" class="usa-button float-right usa-button--secondary desktop:grid-col-3">
+          <a href="{{ page.project_link }}" class="usa-button float-right usa-button desktop:grid-col-3">
             View project site
           </a>
           {% endif %}
         </div>
         <h1 class="title">{{ page.title }}</h1>
-
 
         <div class="grid-container">
           <div class="grid-row grid-gap">
@@ -35,7 +34,7 @@ layout: default
         <h2>About {{page.agency_abbrev}}</h2>
         {{ page.partner_description }}
         <h2>The challenge</h2>
-        <div class="bg-primary-lightest project-question">
+        <div class="bg-secondary-lightest project-question">
           <p class="usa-intro">
             {{ page.subtitle  }}
           </p>
