@@ -35,23 +35,25 @@ $theme-color-base-darkest: "gray-cool-80";
 $theme-color-base-ink: "gray-cool-80";
 
 // Primary colors
-$theme-color-primary-family: "blue";
-$theme-color-primary-lightest: "blue-warm-5";
-$theme-color-primary-lighter: "blue-warm-10";
-$theme-color-primary-light: "blue-warm-20";
-$theme-color-primary: "blue-50v";
-$theme-color-primary-vivid: "blue-warm-50v";
-$theme-color-primary-dark: "blue-warm-70";
-$theme-color-primary-darker: "blue-warm-80";
+$theme-color-primary-family: "gold";
+$theme-color-primary-lightest: false;
+$theme-color-primary-lighter: "gold-5";
+$theme-color-primary-light: "gold-20";
+$theme-color-primary: "gold-40v";
+$theme-color-primary-vivid: "gold-30v";
+$theme-color-primary-dark: "gold-50v";
+$theme-color-primary-darker: "gold-60";
 $theme-color-primary-darkest: false;
 
 // Secondary colors
-$theme-color-secondary-family: "gold";
-$theme-color-secondary-lightest: false;
-$theme-color-secondary-lighter: "gold-5";
-$theme-color-secondary-light: "gold-20";
-$theme-color-secondary: "gold-40v";
-$theme-color-secondary-vivid: "gold-30v";
-$theme-color-secondary-dark: "gold-50v";
-$theme-color-secondary-darker: "gold-60";
+$theme-color-secondary-family: "blue";
+$theme-color-secondary-lightest: "blue-warm-5";
+$theme-color-secondary-lighter: "blue-warm-10";
+$theme-color-secondary-light: "blue-warm-20";
+$theme-color-secondary: "blue-50v";
+$theme-color-secondary-vivid: "blue-warm-50v";
+$theme-color-secondary-dark: "blue-warm-70";
+$theme-color-secondary-darker: "blue-warm-80";
 $theme-color-secondary-darkest: false;
+
+$theme-button: "gold-40v";
