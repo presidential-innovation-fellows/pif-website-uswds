@@ -10,6 +10,7 @@ subtitle: "The U.S. government did not have a holistic view of how fast China's 
 partner_description: "DIU's mission is to accelerate commercial technology for national security. They are a fast-moving government entity that provides recurring revenue to companies to solve national security problems."
 project_link: https://www.diu.mil
 status: ["past", "case_study"]
+order: 1
 ---
 
 In 2017, Presidential Innovation Fellow Michael Brown [co-authored](https://admin.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_(1).pdf "Read: Defense Innovation Unit Experimental (DIUx)

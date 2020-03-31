@@ -3,8 +3,8 @@ id: michael-brown
 title: Michael Brown
 image: michael-brown-headshot.jpg
 fellow_year: 2016
-project: []
-agency: []
+project: ["diu-tech-transfer","diux-startups"]
+agency: ["DIU"]
 hometown: Palo Alto, CA
 region: west
 bio_short: Michael is a Presidential Innovation Fellow working with the Defense Innovation Unit Experimental (DIUx) in Silicon Valley.
