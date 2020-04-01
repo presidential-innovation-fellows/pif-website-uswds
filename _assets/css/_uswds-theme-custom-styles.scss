@@ -235,13 +235,15 @@ USWDS - PIF THEME STYLES
 //
 // }
 //
-// .usa-section {
-//   @include u-padding-y(4);
-// }
+.usa-section {
+  @include u-padding-y(5);
+}
 .usa-prose > a.usa-button {
   color: white;
 }
-
+.usa-prose > h1, .usa-prose > h2, .usa-prose > h3, .usa-prose > h4, .usa-prose > h5, .usa-prose > h6 {
+  @include u-font-family('sans');
+}
 .usa-logo {
   a {
     color: #fff;
