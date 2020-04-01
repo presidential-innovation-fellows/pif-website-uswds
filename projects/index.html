@@ -17,7 +17,6 @@ permalink: /projects/
       {% include projects-column.html project_filter="current" %}
 
       <h2>Case Studies</h2>
-      <div class="grid-container">
         <div class="grid-row">
         {% assign sorted_projects = site.projects | sort:"order" %}
         {% for project in sorted_projects %}
@@ -43,7 +42,7 @@ permalink: /projects/
           {% endif %}
         {% endfor %}
         </div>
-      </div>
+
 
     </div>
   </div>

@@ -1,5 +1,5 @@
-<div class="grid-container">
-    <div class="grid-row grid-gap">
+
+<div class="grid-row grid-gap">
 {% for project in site.projects %}
     {% if include.project_filter == project.status %}
       <div class="project-item usa-prose">
@@ -15,5 +15,4 @@
       </div>
     {% endif %}
 {% endfor %}
-</div>
 </div>
