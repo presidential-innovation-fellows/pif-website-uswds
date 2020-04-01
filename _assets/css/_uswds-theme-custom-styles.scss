@@ -374,26 +374,18 @@ ul.project-fellows li {
   }
 }
 
-.case-study-inner {
+.site-card {
   @include u-border('base-light');
   @include u-border('1px');
-
-  div {
+  @include u-color('ink');
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  .card-body {
     @include u-padding-x(2);
     @include u-padding-bottom(2);
+    @include u-color('base-darker');
   }
-
-  .overlay span {
-		@include u-margin(0);
-		@include u-position('absolute');
-		@include u-width('full');
-		@include u-height('full');
-		@include u-top(0);
-		@include u-left(0);
-		cursor: pointer;
-    z-index: 1;
-  }
-
   &:hover{
 		h3 a{
 			@include u-border-bottom('2px', 'primary', 'solid');
