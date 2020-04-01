@@ -9,13 +9,17 @@ permalink: /projects/
 
 <section class="usa-section grid-container usa-prose">
   <div class="grid-row">
-    <div class="desktop:grid-col-12 usa-prose padding-right-4">
+    <div class="desktop:grid-col-12">
       <!-- <h2>Upcoming Projects</h2>
       {% include projects-column.html project_filter="upcoming" %} -->
-
       <h2>Current projects</h2>
       {% include projects-column.html project_filter="current" %}
-
+    </div>
+  </div>
+</section>
+<section class="usa-section grid-container usa-prose">
+  <div class="grid-row">
+    <div class="desktop:grid-col-12">
       <h2>Case Studies</h2>
         <div class="grid-row">
         {% assign sorted_projects = site.projects | sort:"order" %}
@@ -41,12 +45,11 @@ permalink: /projects/
           </div>
           {% endif %}
         {% endfor %}
-        </div>
-
-
+      </div>
     </div>
   </div>
+</section>
+<!--
   <div class="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">
     <a class="usa-link" href="#blog">Return to top</a>
-  </div>
-</section>
+  </div> -->
