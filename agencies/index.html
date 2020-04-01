@@ -4,11 +4,17 @@ title: Agencies
 permalink: /agencies/
 ---
 
-<div class="usa-hero">
-  <div class="grid-container">
-    <div class="usa-hero__callout"></div>
+<div class="usa-hero"></div>
+
+<section class="grid-container usa-section">
+  <div class="grid-row">
+    <div class="grid-col-8">
+      <h1>Work with us</h1>
+      <h2>Want to build cutting-edge, citizen-centric solutions? We’d love to hear from you</h2>
+      <p><a class="usa-button" href="https://proposal.pif.gov">Submit a project</a></p>
+    </div>
   </div>
-</div>
+</section>
 
 <section class="grid-container usa-section">
   <div class="grid-row">
@@ -22,10 +28,8 @@ permalink: /agencies/
   </div>
 </section>
 
-
-
 <section class="usa-section grid-container usa-prose">
-  <h2>Agencies We've Worked With</h2>
+  <h2>Trusted by agency leaders</h2>
   <div class="grid-row grid-gap">
     {% for agency in site.data.agencies %}
     <div class="work-box desktop:grid-col-6 tablet:grid-col-4 flex-auto padding-x-2">
@@ -36,28 +40,4 @@ permalink: /agencies/
     </div>
     {% endfor %}
   </div>
-</section>
-
-<section class="grid-container usa-section usa-prose">
-  <div class="grid-row">
-    <div class="usa-layout-docs__main desktop:grid-col-12 usa-prose usa-layout-docs">
-      <h2>Agencies We've Worked With</h2>
-      <div class="grid-container">
-        <div class="grid-row grid-gap">
-          {% for agency in site.data.agencies %}
-          <div class="tablet:grid-col-4 mobile:grid-col-2 partner-card">
-            <div>
-              {% asset "{{ agency.name }}.png" alt="{{ agency.name }} logo"  %}
-              <a href="{{ agency.url }}" class="usa-link usa-link--external">{{ agency.fullname }}</a>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <!-- <div class="grid-row padding-top-4 tablet:padding-x-4 margin-bottom-4">
-    <a class="usa-link" href="#blog">Return to top</a>
-  </div> -->
 </section>
