@@ -42,7 +42,12 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
     </ul>
     {% else %}
     <!-- On the fellows page -->
-    {% if include.pif_project %}
+
+    <p>Class of <a href="/fellows/{{ include.pif_year }}">{{ include.pif_year }}</a></p>
+    <p>From {{ include.pif_hometown }}</p>
+
+    {% assign pif_project = include.pif_project | size %}
+    {% if pif_project != 0 %}
     <h2>Project</h2>
     <ul class="usa-sidenav">
       {% for project in site.projects %}
@@ -56,8 +61,9 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
     </ul>
     {% endif %}
 
-    {% if include.pif_agency %}
-    <h2>{% if include.pif_agency | size > 1 %}Agencies{% else %}Agency{% endif %}</h2>
+    {% assign pif_agency = include.pif_agency | size %}
+    {% if pif_agency > 0 %}
+    <h2>{% if pif_agency > 1 %}Agencies{% else %}Agency{% endif %}</h2>
     <ul class="usa-sidenav">
       {% for agency in site.data.agencies %}
       {% if include.pif_agency contains agency.name %}

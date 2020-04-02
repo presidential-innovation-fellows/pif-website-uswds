@@ -4,7 +4,7 @@ title: Nina Walia
 image: nina-walia-headshot.jpg
 fellow_year: 2020
 project: []
-agency: []
+agency: ["FDA"]
 hometown: Oakland, CA
 region: west
 bio_short: Experience Design Director for Emerging Platforms

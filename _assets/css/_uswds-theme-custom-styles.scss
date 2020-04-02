@@ -19,12 +19,12 @@ USWDS - PIF THEME STYLES
 // }
 
 
+.usa-button:hover, .usa-button.usa-button--hover
+
 // Buttons
 .usa-button {
   &:hover, &.usa-button--hover {
-    @include at-media('desktop') {
-      @include u-bg('primary-vivid');
-    }
+    @include u-bg('primary-vivid');
     &.usa-button--outline {
       box-shadow: $button-stroke color("primary");
       color: color("primary");
@@ -179,6 +179,9 @@ USWDS - PIF THEME STYLES
 .agencies .usa-hero {
   background-image: url(asset_path('banner-orientation-acq.jpg'));
 }
+.apply .usa-hero {
+  background-image: url(asset_path('banner-capitol.jpg'));
+}
 
 .img-circle {
   border-radius: 50%;
@@ -196,6 +199,10 @@ USWDS - PIF THEME STYLES
   @include u-bg('secondary-darker');
   h3 a {
     @include u-text('primary');
+    text-decoration: none;
+  }
+  .usa-graphic-list__heading {
+    @include u-font-family('sans');
   }
 }
 
@@ -236,7 +243,10 @@ USWDS - PIF THEME STYLES
 // }
 //
 .usa-section {
-  @include u-padding-y(5);
+  @include u-padding-y(3);
+  &:last-child {
+    @include u-padding-bottom(5);
+  }
 }
 .usa-prose > a.usa-button {
   color: white;
@@ -340,14 +350,18 @@ ul.project-fellows li {
   @include u-margin-bottom(2);
 }
 
-.page-banner {
+.page-banner, .page-header{
   .header-main {
     @include u-font('heading', 'xl');
   }
   .header-sub {
     @include u-font('body', 'lg');
     @include u-text('light');
+    @include u-margin-top(0);
   }
+}
+.page-banner {
+  @include u-padding-y(3);
 }
 .project-item {
   @include u-padding-bottom(5);
@@ -373,6 +387,32 @@ ul.project-fellows li {
   }
   p {
     @include u-font('body','xs');
+  }
+}
+.list-fellows {
+  a.list-item {
+    @include u-border-bottom('transparent');
+    @include u-border-top('transparent');
+    @include u-border-left('transparent');
+    @include u-border-right('transparent');
+    @include u-border('1px');
+    &:hover {
+      @include u-border('base-light');
+      @include u-border('1px');
+    }
+    text-decoration: none;
+    @include u-color('base-darker');
+    @include u-padding(2);
+    .list-item-img {
+      @include at-media(desktop) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .circle-card {
+        height: auto;
+      }
+    }
   }
 }
 

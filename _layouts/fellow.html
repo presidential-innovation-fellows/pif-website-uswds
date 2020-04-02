@@ -11,21 +11,15 @@ This template is for a single page that does not have a date associated with it.
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      {% include sidenav.html pif_project=page.project  pif_agency=page.agency %}
+      {% include sidenav.html pif_project=page.project pif_agency=page.agency pif_year=page.fellow_year pif_hometown=page.hometown %}
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-
-        {% if page.image %}
-        {% asset "{{ page.image }}" class="circle-card-lg float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
-        {% endif %}
-
-        <strong>Class:</strong> <a href="/fellows/{{ page.fellow_year }}">{{ page.fellow_year }}</a><br />
-        <strong>From:</strong> {{ page.hometown }}
-
-        <p class="usa-intro">
-          {{ page.bio_short }}
-        </p>
-
        <h2>Biography</h2>
+       {% if page.image %}
+        {% asset "{{ page.image }}" class="circle-card-lg float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
+       {% endif %}
+       <p class="usa-intro">
+         {{ page.bio_short }}
+       </p>
         {{ content }}
       </div>
     </div>
